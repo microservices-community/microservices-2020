@@ -1,0 +1,266 @@
+---
+- day: February 19th
+  color: "#aeb4ff"
+  theme: Microservice Design
+  events:
+    - title: Registration desk open
+      from: "8:00"
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue"><a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.212</a></a>
+    - title: Welcome and Opening Speech
+      from: "9:15"
+      to: "10:00"
+      authors:
+        - name: Sabine Sachweh, Fabrizio Montesi
+          title: Speakers
+      description: |
+        Opening speech to welcome all the attendees and
+        introduce the organisation and the environment around the conference.
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.211</a>
+    - title: Coffee Break
+      from: "10:00"
+      to: "10:20"
+      non-session: true
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.212</a>
+    - title: Foundations of Design
+      chairs:
+        - Luís Cruz-Filipe
+      from: "10:30"
+      to: "12:10"
+      papers:
+        - 29
+        - 12
+        - 20
+        - 11
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.211</a>
+    - title: Lunch
+      from: "12:10"
+      to: "13:10"
+      non-session: true
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.212</a>
+    - from: "13:20"
+      to: "14:20"
+      chairs:
+        - Saverio Giallorenzo
+      authors:
+        - name: Olaf Zimmermann
+          title: Speaker
+      title: Domain-Specific Service Decomposition with Microservices API Patterns
+      description: |
+        <a href="https://conf-micro.services/2019/keynotes/#domain-specific-service-decomposition-with-microservices-api-patterns">
+        Abstract of the keynote</a>
+        |
+        <a href="https://microservice-api-patterns.org/">
+        Microservice API Patterns Website</a>
+      slides: /keynotes/Zimmerman.pdf
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.211</a>
+    - title: Design Support
+      chairs:
+        - Olaf Zimmermann
+      from: "14:20"
+      to: "15:10"
+      papers:
+        - 24
+        - 16
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.211</a>
+    - title: Coffee Break
+      from: "15:10"
+      to: "15:30"
+      non-session: true
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.212</a>
+    - title: Design Experiences
+      chairs:
+        - Claudio Guidi
+      from: "15:30"
+      to: "16:20"
+      papers:
+        - 17
+        - 18
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.211</a>
+    - title: Short talks
+      chairs:
+        - Nhiem Lu
+      from: "16:20"
+      to: "17:00"
+      papers:
+        - 23
+        - 9
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.211</a>    
+
+- day: February 20th
+  color: "#aee9ff"
+  theme: Microservice Development
+  events:
+    - title: Registration desk open
+      from: "8:00"
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.212</a>
+    - from: "9:00"
+      to: "10:00"
+      authors:
+        - name: Fabrizio Montesi
+          title: Speaker
+      title: Understandable Microservices
+      chairs:
+        - Sabine Sachweh
+      description: |
+        <a href="https://conf-micro.services/2019/keynotes/#understandable-microservices">
+        Abstract of the keynote</a>
+      slides: /keynotes/Montesi.pdf
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.211</a>
+    - title: Coffee Break
+      from: "10:00"
+      to: "10:20"
+      non-session: true
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.212</a>
+    - title: Foundations of Development
+      chairs:
+        - Fabrizio Montesi
+      from: "10:30"
+      to: "12:10"
+      papers:
+        - 21
+        - 26
+        - 5
+        - 13
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.211</a>
+    - title: Lunch
+      from: "12:10"
+      to: "12:50"
+      non-session: true
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.212</a>
+    - from: "13:00"
+      to: "14:00"
+      authors:
+        - name: Ramón Medrano Llamas
+          title: Speaker
+      title: Engineering Reliability
+      chairs:
+        - Marco Peressotti
+      description: |
+        <a href="https://conf-micro.services/2019/keynotes/#engineering-reliability">
+        Abstract of the keynote</a>
+      slides: keynotes/Llamas.pdf
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.211</a>
+    - from: "14:00"
+      to: "14:20"
+      authors:
+        - name: Ullrich Sierau
+          title: Mayor of Dortmund
+      title: Mayor's Address
+      description: |
+        Address of the mayor of Dortmund to the Microservices Community on current and future
+        projects to lead the process of Digital Transformation in the Ruhr area
+      chairs:
+        - Fabrizio Montesi
+        - Sabine Sachweh
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.211</a>
+    - title: Applications 1
+      chairs:
+        - Balint Maschio
+      from: "14:20"
+      to: "15:10"
+      papers:
+        - 8
+        - 22
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.211</a>
+    - title: Coffee Break
+      from: "15:10"
+      to: "15:30"
+      non-session: true
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.212</a>
+    - title: Applications 2
+      chairs:
+        - Jonas Sorgalla
+      from: "15:30"
+      to: "16:20"
+      papers:
+        - 3
+        - 31
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.211</a>
+    - title: Short talks
+      chairs:
+        - Philipp Heisig
+      from: "16:20"
+      to: "17:00"
+      papers:
+        - 15
+        - 10
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.211</a>    
+
+- day: February 21st
+  theme: Microservice Deployment & Experiences
+  color: "#aeffbf"
+  events:
+    - title: Registration desk open
+      from: "8:00"
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.212</a>
+    - from: "9:00"
+      to: "10:00"
+      authors:
+        - name: Jörn Esdohr
+          title: Speaker
+      title: Factory of Things - Using Microservices for Data Processing and IoT
+      chairs:
+        - Florian Rademacher
+      description: |
+        <a href="https://conf-micro.services/2019/keynotes/#factory-of-things-using-microservices-for-data-processing-and-iot">
+        Abstract of the keynote</a>
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.211</a>
+    - title: Coffee Break
+      from: "10:00"
+      to: "10:20"
+      non-session: true
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.212</a>
+    - title: Deployment Automation
+      chairs:
+        - Marcel Hahn
+        - Sebastian Copei
+      from: "10:30"
+      to: "12:10"
+      papers:
+        - 32
+        - 7
+        - 14
+        - 6
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.211</a>
+    - title: Lunch
+      from: "12:10"
+      to: "13:10"
+      non-session: true
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.212</a>
+    - from: "13:20"
+      to: "14:20"
+      authors:
+        - name: Peter Rossbach
+          title: Speaker
+      title: Build Fashionable Container Systems with Microservices, Clouds, and Kubernetes
+      chairs:
+        - Florian Rademacher
+      description: |
+        <a href="https://conf-micro.services/2019/keynotes/#build-fashionable-container-systems-with-microservices-clouds-and-kubernetes">
+        Abstract of the keynote</a>
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.211</a>
+    - title: Experiences 1
+      chairs:
+        - Larisa Safina
+      from: "14:20"
+      to: "15:10"
+      papers:
+        - 30
+        - 25
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.211</a>
+    - title: Coffee Break
+      from: "15:10"
+      to: "15:30"
+      non-session: true
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.212</a>
+    - title: Experiences 2
+      chairs:
+        - Stefano Pio Zingaro
+      from: "15:30"
+      to: "17:00"
+      papers:
+# Did not register
+#        - 2
+        - 28
+        - 19
+      location: Room <a href="/2019/attending/#map-to-reach-the-conference-room-inside-the-venue">F.211</a>

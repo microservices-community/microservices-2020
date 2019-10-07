@@ -1,0 +1,65 @@
+# Event parameters ------------------------------------------------------------
+edition: 2020
+title: Microservices 2020
+baseurl: /2020
+header:
+  city: "Bologna"
+  dates: "19-21 Feb. 2020"
+email: microservices2020@microservices.community # contact email
+description: "Academia meets Industry"
+timezone: Europe/Rome
+# twitter_feed: c_microservices 
+# legal_notice_url: /legal-notice
+community_badge:
+  asset: "black.png"
+  token: "microservices2020"
+
+# Site navigation -------------------------------------------------------------
+navigation_header:
+  Home:             /
+  Attending:        /attending/
+  Keynotes:         /keynotes/
+  Program:          /program/
+# Photos:           /photos/
+# Satellite Events: /satellite/
+# Social Events:    /social_event/
+  Committees:       /committees/
+  Registration:     /registration/
+  Contact:          /contact/  
+
+# Exclude from build -----------------------------------------------------------
+exclude:
+- README.md
+- LICENSE
+- Gemfile
+- Gemfile.lock
+- Makefile
+- alembic-jekyll-theme.gemspec
+
+#------------------------------------------------------------------------------
+logo: "/assets/images/microservices.svg"
+url: "https://conf-micro.services/"
+avatarurl: "/assets/images/favicon.ico"
+
+encoding: utf-8
+
+plugins:
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jemoji
+
+sass:
+  style: compressed # Style compression
+permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+excerpt_separator: <!-- more --> # Marks end of excerpt in posts
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+      feature_image: "default-bg.png"
+      # image_source: "Microservice Community"
