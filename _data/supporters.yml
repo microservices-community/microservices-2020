@@ -1,14 +1,8 @@
-- type: Sponsor
-  tier: gold
-  name: Sponsor Name
-  link: 
-  logo: logo.jpg
-- type: Sponsor
-  tier: silver
-  name: Sponsor Name
-  link: 
-  logo: logo.jpg
 - type: Supporter
-  name: Supporter Name
-  link: 
-  logo: logo.jpg
+  name: University of Bologna
+  link: https://www.unibo.it/
+  logo: unibo.png
+- type: Supporter
+  name: University of Southern Denmark
+  link: https://www.sdu.dk/en/om_sdu/institutter_centre/imada_matematik_og_datalogi
+  logo: sdu.png

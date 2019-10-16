@@ -1,14 +1,14 @@
-The **International Conference on Microservices** is a forum for the discussion of all aspects of microservices: their design, programming, and operations. 
+The **International Conference on Microservices** is a forum for the discussion of all aspects of microservices: their design, programming, and operations. The 2020 edition of the conference (Microservices 2020) will take place in Bologna, Italy. Dates and venue will be announced shortly.
 
 
 The conference's overarching aim is to bring together industry and academia, to foster discussion on practice and research of microservices. 
 
-The conference series started with [Microservices 2017](https://www.conf-micro.services/2017/index.html) which successfully brought together many international practitioners and researches interested in the software paradigm of microservices. During Microservices 2017 the [Microservices Community](https://microservices.community) was founded with the aims of sharing of knowledge, fostering of collaborations, and organising events around microservices.
-In this edition, Microservices will be co-located and intertwined with the first international edition of the **Meeting on Microservices** (the [first national edition](http://www.italianasoftware.com/mom2016_eng.html) took place in Bologna, Italy), an event specifically oriented towards companies where invited speakers from industry report success stories, best practices, current challenges, and attendees participate to discussion panels on the adoption and evolution of microservices in production.
+Microservices 2020 is part of a conference series started with [Microservices 2017](https://www.conf-micro.services/2017/index.html) which successfully brought together many international practitioners and researches interested in the software paradigm of microservices. During Microservices 2017 the [Microservices Community](https://microservices.community) was founded with the aims of sharing of knowledge, fostering of collaborations, and organising events around microservices.
+Like Microservices 2019, this edition will be co-located and intertwined with the first international edition of the **Meeting on Microservices** (the [first national edition](http://www.italianasoftware.com/mom2016_eng.html) took place in Bologna, Italy), an event specifically oriented towards companies where invited speakers from industry report success stories, best practices, current challenges, and attendees participate to discussion panels on the adoption and evolution of microservices in production.
 
 ### Keynote Speakers
 
-<div>
+{% if site.data.keynotes %}
 {% for keynote in site.data.keynotes %}
   <div class="panel panel-primary" style="display:inline-block; padding:10px; margin:10px; width: 30%">
     {% if keynote.picture %}
@@ -23,12 +23,14 @@ In this edition, Microservices will be co-located and intertwined with the first
     </div>
   </div>
 {% endfor %}
-</div>
+{% else %}
+TBA
+{% endif %}
 
 <div markdown="1">
-### CONFERENCE THEME
+### Microservices & CyberSecurity
 
-CONFERENCE THEME
+The general theme of Microservices 2020 is the interplay between microservices and cybersecurity.
 
 Microservices welcomes both theoretical and experimental submissions on topics ranging from formal frameworks to industrial experience reports and demonstrations. Presentations will be selected based on abstract submissions of maximum two pages. See the call for papers for details.
 </div>

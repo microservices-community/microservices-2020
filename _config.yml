@@ -11,20 +11,21 @@ timezone: Europe/Rome
 # twitter_feed: c_microservices 
 # legal_notice_url: /legal-notice
 community_badge:
-  asset: "black.png"
+  asset: "1-black.png"
   token: "microservices2020"
 
 # Site navigation -------------------------------------------------------------
 navigation_header:
   Home:             /
-  Attending:        /attending/
-  Keynotes:         /keynotes/
-  Program:          /program/
+# Attending:        /attending/
+# Keynotes:         /keynotes/
+# Program:          /program/
 # Photos:           /photos/
 # Satellite Events: /satellite/
 # Social Events:    /social_event/
   Committees:       /committees/
-  Registration:     /registration/
+# Registration:     /registration/
+  Sponsoring:       /sponsors/
   Contact:          /contact/  
 
 # Exclude from build -----------------------------------------------------------
@@ -61,5 +62,5 @@ defaults:
       type: pages
     values:
       layout: page
-      feature_image: "default-bg.png"
-      # image_source: "Microservice Community"
+      feature_image: "bg-bologna-sunset.jpg"
+      image_source: "Alexandros Papadopoulos"
