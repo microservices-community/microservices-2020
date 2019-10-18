@@ -50,7 +50,6 @@ plugins:
 - jekyll-paginate
 - jekyll-seo-tag
 - jekyll-redirect-from
-- jemoji
 
 sass:
   style: compressed # Style compression
