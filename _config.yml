@@ -26,7 +26,7 @@ navigation_header:
   Committees:       /committees/
 # Registration:     /registration/
   Sponsoring:       /sponsors/
-  Contact:          /contact/  
+#  Contact:          /contact/  
 
 # Exclude from build -----------------------------------------------------------
 exclude:
@@ -50,7 +50,6 @@ plugins:
 - jekyll-paginate
 - jekyll-seo-tag
 - jekyll-redirect-from
-- jemoji
 
 sass:
   style: compressed # Style compression
