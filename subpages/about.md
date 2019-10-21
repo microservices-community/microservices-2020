@@ -40,5 +40,5 @@ On the other hand, the same frameworks could instead prove valuable allies to co
 
 These considerations are about the intrinsic interplay between the fields of microservices and security. However, it should be noted that the context is peculiarly sensitive to them. Microservices are adopted as an accelerator of Digital Transformation, as the successful past edition of the conference  proved, and security issues should be a primary concern, possibly taking the chance to integrate security-by-design into the microservice-led revolution in software development.
 
-Microservices welcomes both theoretical and experimental submissions on topics ranging from formal frameworks to industrial experience reports and demonstrations. Presentations will be selected based on abstract submissions of maximum two pages. See the call for papers for details.
+Microservices welcomes both theoretical and experimental submissions on topics ranging from formal frameworks to industrial experience reports and demonstrations. Presentations will be selected based on abstract submissions of maximum two pages. See the <a class="link-to-tab" href="#call-for-papers">call for papers</a> for details.
 </div>

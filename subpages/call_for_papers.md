@@ -23,7 +23,7 @@ Topics of interest include (but are not limited to):
 - Testing for microservices.
 
 We solicit contributed talks based work in progress, scientific work published or submitted for publication, or practical experience reports.
-Authors wishing to present their work are invited to submit extended abstracts following the <a onclick="$('#submission_tab a').trigger('click'); return false;" href="#submission">submission guidelines</a>.
+Authors wishing to present their work are invited to submit extended abstracts following the <a class="link-to-tab" href="#submission">submission guidelines</a>.
 Abstracts and presentations must be in English.
 
 {% if site.navigation_header.Contact %}

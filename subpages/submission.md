@@ -8,9 +8,9 @@ A submission should describe a talk to be given at the conference in the form of
 Contributions may be submitted via EasyChair by clicking the button below. The submission deadline is **November 30th, 2018** <acronym title="Anywhere on earth">AoE</acronym>. Resubmissions are allowed until the submission deadline.
 {% endcomment %}
 
-Contributions will be reviewed and selected by the [Program Committee](committees/). Extended abstracts of accepted contributions will be available electronically before the conference.
+Contributions will be reviewed and selected by the [Program Committee]({{ '/committees/' | relative_url }}). Extended abstracts of accepted contributions will be available electronically before the conference.
 
-For more details on the conference's scope and topics see the extensive <a onclick="$('#cfp_tab a').trigger('click'); return false;" href="#cfp">Call for Papers</a>.
+For more details on the conference's scope and topics see the <a class="link-to-tab" href="#call-for-papers">call for papers</a>.
 
 
 <p style="margin:2em;" class="text-center">
