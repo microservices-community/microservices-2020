@@ -2,8 +2,6 @@
 layout: home
 # feature_image:
 # image_source: 
-excerpt: |
-  The Microservices conference is a forum for the discussion of all aspects of designing and programming microservice architectures. Both theoretical and experimental contributions are welcome, on topics ranging from formal frameworks to experience reports.
 ---
 
 <ul class="nav nav-tabs nav-justified">

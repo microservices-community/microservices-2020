@@ -19,6 +19,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-paginate"
   spec.add_runtime_dependency "jekyll-seo-tag"
   spec.add_runtime_dependency "jekyll-redirect-from"
+  spec.add_runtime_dependency "jekyll-email-protect"
 
   spec.add_development_dependency "bundler"
 end

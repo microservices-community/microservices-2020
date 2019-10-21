@@ -4,7 +4,7 @@ title: Microservices 2020
 baseurl: /2020
 header:
   city: "Bologna"
-  dates: "19-21 Feb. 2020"
+  dates: "June 2020"
 email: microservices2020@microservices.community # contact email
 description: "Academia meets Industry"
 timezone: Europe/Rome
@@ -16,17 +16,17 @@ community_badge:
 
 # Site navigation -------------------------------------------------------------
 navigation_header:
-  Home:             /
-# Attending:        /attending/
-# Keynotes:         /keynotes/
-# Program:          /program/
-# Photos:           /photos/
-# Satellite Events: /satellite/
-# Social Events:    /social_event/
-  Committees:       /committees/
-# Registration:     /registration/
-  Sponsoring:       /sponsors/
-#  Contact:          /contact/  
+  Home:              /
+# Attending:         /attending/
+# Keynotes:          /keynotes/
+# Program:           /program/
+# Photos:            /photos/
+# Satellite Events:  /satellite/
+# Social Events:     /social_event/
+  Committees:        /committees/
+# Registration:      /registration/
+  Sponsoring:        /sponsors/
+  Contact:           /contact/  
 
 # Exclude from build -----------------------------------------------------------
 exclude:
@@ -50,6 +50,7 @@ plugins:
 - jekyll-paginate
 - jekyll-seo-tag
 - jekyll-redirect-from
+- jekyll-email-protect
 
 sass:
   style: compressed # Style compression
