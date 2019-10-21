@@ -36,6 +36,7 @@ exclude:
 - Gemfile.lock
 - Makefile
 - alembic-jekyll-theme.gemspec
+- include_md.html
 
 #------------------------------------------------------------------------------
 logo: "/assets/images/microservices.svg"

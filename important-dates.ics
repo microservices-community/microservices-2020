@@ -3,7 +3,7 @@ layout: none
 ---
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:https://conf-micro.services/2019 {% comment %}{{ site.url }}{% endcomment %}
+PRODID:https://conf-micro.services/2020
 NAME:{{ site.title }}
 X-WR-CALNAME:{{ site.title }}
 REFRESH-INTERVAL;VALUE=DURATION:PT24H
