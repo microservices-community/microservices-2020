@@ -11,16 +11,22 @@ On the other hand, the same frameworks could instead prove valuable allies to co
 These considerations are about the intrinsic interplay between the fields of microservices and security. However, it should be noted that the context is peculiarly sensitive to them. Microservices are adopted as an accelerator of Digital Transformation, as the successful past edition of the conference  proved, and security issues should be a primary concern, possibly taking the chance to integrate security-by-design into the microservice-led revolution in software development.
 
 
-Topics of interest include (but are not limited to):
-
-- Design and implementation of microservice architectures.
-- Empirical studies of microservices.
-- Software engineering methods for microservices.
-- Security in microservices.
-- Formal models for microservices.
-- Verification (both static and runtime) of microservice systems.
-- Programming languages and techniques for microservices.
-- Testing for microservices.
+Topics of interest are not limited to our cyber security theme. We are interested in all aspects and phases of the design and implementation of microservice architectures:
+  - Software engineering methods for microservices, specifically (but not limited to) agile service design practices, behavior- and domain-driven design
+  - Identification, specification, and realization of candidate services
+  - Patterns for IDEAL cloud-native application architectures; service API design and management
+  - Microservices infrastructure components: API gateways, side cars, and service meshes; reactive messaging brokers; service registries; service containers and cluster managers; infrastructure as code
+  - Function-as-a-service and serverless cloud offerings; service-based event sourcing and data streaming architectures
+  - Security and other service quality concerns (consistency, availability, recoverability) in microservices; dealing with General Data Protection Regulation (GDPR) compliance and other data privacy requirements
+  - Testing for microservices: unit tests, system tests, acceptance and regression tests, test-driven service development
+  - Formal models for microservices
+  - Verification (both static and runtime) of microservice systems
+  - DevOps for microservices, in particular (but not limited to) continuous deployment and distributed monitoring
+  - Microservice management: fault, configuration, accounting, performance, security  
+  - Discovery/recovery and reverse engineering of microservices solutions
+  - Microservice evolution
+  - Programming languages, notations, and techniques for microservices
+  - Empirical studies of microservices adoption
 
 We solicit contributed talks based work in progress, scientific work published or submitted for publication, or practical experience reports.
 Authors wishing to present their work are invited to submit extended abstracts following the <a class="link-to-tab" href="#submission">submission guidelines</a>.
