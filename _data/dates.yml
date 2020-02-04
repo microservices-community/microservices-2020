@@ -1,26 +1,55 @@
 - summary: Abstract Submission Deadline
   id: submission
   expired: false
+  entries: 
+    - date: 2020-05-15
+      zone:
+        tzid: Etc/GMT-12
+        label: AoE (UTC-12)
 - summary: Author Notification
   id: notification
   expired: false
+  entries: 
+    - date: 2020-06-26
+      zone:
+        tzid: Etc/GMT-12
+        label: AoE (UTC-12)
 - summary: Camera-ready
   id: camera-ready
   expired: false
-- summary: Registration
-  hide_from: ics
-  id: registration
+  entries: 
+    - date: 2020-08-07
+      zone:
+        tzid: Etc/GMT-12
+        label: AoE (UTC-12)
+- summary: Early bird registration
+  id: early-bird
   expired: false
-- summary: Registration opens
-  hide_from: website
-  id: registration_opens
-  expired: false
-- summary: Registration closes
-  hide_from: website
-  id: registration_closes
-  expired: false
+  entries: 
+    - date: 2020-08-07
+      zone:
+        tzid: Etc/GMT-12
+        label: AoE (UTC-12)
+# - summary: Registration
+#   hide_from: ics
+#   id: registration
+#   expired: false
+# - summary: Registration opens
+#   hide_from: website
+#   id: registration_opens
+#   expired: false
+# - summary: Registration closes
+#   hide_from: website
+#   id: registration_closes
+#   expired: false
 - summary: 
     website: Conference
     calendar: Microservices 2020
   id: conference
   expired: false
+  entries:
+    - from: 2020-09-08
+      to: 2020-09-10
+      zone:
+        tzid: Europe/Berlin
+        label: CET (UTC+1)
