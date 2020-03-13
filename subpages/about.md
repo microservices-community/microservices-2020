@@ -28,9 +28,9 @@ TBA
 {% endif %}
 
 <div markdown="1">
-### Microservices & CyberSecurity
+### Microservices & Cyber Security
 
-The general theme of Microservices 2020 is the interplay between microservices and {IT, Cyber}-security.
+The general theme of Microservices 2020 is the interplay between microservices and {IT, Cyber} security.
 
 On one hand, the adoption of microservices is fostering the adoption of new architectural styles and software construction paradigms; understanding the security properties (or the emerging vulnerabilities) of the resulting constructs calls for the development of a fresh mindset in analysts and testers alike.
 

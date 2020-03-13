@@ -22,7 +22,7 @@ layout: page
   <tbody>
     <tr><td><a href="https://www.unibo.it/sitoweb/marco.prandini/en">Marco Prandini</a></td><td>University of Bologna (IT)</td></tr>
     <tr><td><a href="https://www.unibo.it/sitoweb/gianluigi.zavattaro/en">Gianluigi Zavattaro</a></td><td>University of Bologna (IT)</td></tr>
-    <tr><td><a href="https://ifs.hsr.ch/Olaf-Zimmermann.11623.0.html">Olaf Zimmerman</a></td><td>University of Applied Sciences of Eastern Switzerland (CH)</td></tr>
+    <tr><td><a href="https://ifs.hsr.ch/Olaf-Zimmermann.11623.0.html">Olaf Zimmermann</a></td><td>University of Applied Sciences of Eastern Switzerland (CH)</td></tr>
   </tbody>
 </table>
 ###	Industrial Liaison Chair

@@ -105,9 +105,9 @@ a {
       font-feature-settings: 'kern', 'onum', 'liga';
       margin-left: 2rem;
 
-      @include breakpoint(break-1) {
-        margin-left: 0;
-      }
+      //@include breakpoint(break-1) {
+      //  margin-left: 0;
+      //}
 
       ol, ul {
         padding-top: 1rem;
