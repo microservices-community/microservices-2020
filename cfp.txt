@@ -22,7 +22,7 @@ Theme and Topics
 The theme of this edition is the interplay between microservices and the cyber security.
 
 - On the one hand, the adoption of microservices is fostering the adoption of new architectural patterns and software construction practices; understanding the security properties (or the emerging vulnerabilities) of the resulting constructs calls for the development of a fresh mindset in analysts, designers and testers alike. In addition, the additional middleware and infrastructure typically proposed for the management of microservice-based architectures could expand the attack surface of the systems.
--  On the other hand, the same frameworks could instead prove valuable allies to collect security-relevant information and to coordinate defenses. The above considerations concern the intrinsic interplay between the fields of microservices and security. The broader application context is peculiarly sensitive to them: microservices are often adopted as an accelerator of digital transformations as the successful past edition(s) of the conference have shown. In this light, security issues should be a primary concern for microservices researchers and practitioners, as they provide an opportunity to integrate security-by-design into the recent advances in software development - triggered and amplified by microservices principles, patterns, and technologies.
+- On the other hand, the same frameworks could instead prove valuable allies to collect security-relevant information and to coordinate defenses. The above considerations concern the intrinsic interplay between the fields of microservices and security. The broader application context is peculiarly sensitive to them: microservices are often adopted as an accelerator of digital transformations as the successful past edition(s) of the conference have shown. In this light, security issues should be a primary concern for microservices researchers and practitioners, as they provide an opportunity to integrate security-by-design into the recent advances in software development - triggered and amplified by microservices principles, patterns, and technologies.
 
 Topics of interest are not limited to our cyber security theme. We are interested in all aspects and phases of the design and implementation of microservice architectures:
 
@@ -47,6 +47,7 @@ We solicit contributed talks based work in progress, scientific work published o
 
 Submissions Guidelines
 ----------------------
+
 A submission should describe a talk to be given at the conference in the form of extended abstracts with a maximum of two pages. 
 
 Submissions can be based on work in progress, scientific work published or submitted for publication, practical experience reports, or practical tool demonstrations. 
@@ -80,11 +81,13 @@ Andrea Melis,	University of Bologna (IT)
 
 Program Committee
 -----------------
+
 TBA
 
 
 Note about COVID-19
 -------------------
+
 We are continuously monitoring the COVID-19 situation from local authorities and the World Health Organization. Microservices 2020 is half a year away, and we are confident that COVID-19 emergency will pass over and the conference will be held in September, as planned. And, if necessary, alternative solutions, such as postponement, remote presentations, etc will be looked into and identified.
 
 
