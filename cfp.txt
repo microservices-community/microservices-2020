@@ -1,7 +1,7 @@
 International Conference on Microservices: Call for Papers
 ==========================================================
 
-Third International Conference Microservices
+Third International Conference on Microservices
 
 September 8th-10th 2020, Bologna, Italy
 
@@ -75,20 +75,46 @@ Publicity Chair:
 Marco Peressotti, University of Southern Denmark (DK)
 
 Local Chairs:
-Davide Berardi,	University of Bologna (IT)
-Andrea Melis,	University of Bologna (IT)
+Davide Berardi, University of Bologna (IT)
+Andrea Melis, University of Bologna (IT)
 
 
 Program Committee
 -----------------
 
-TBA
+Davide Berardi, University of Bologna (IT)
+Simon Bliudze, INRIA (FR)
+Chiara Bodei, Pisa University (IT)
+Elisabetta Di Nitto, Politecnico di Milano (IT)
+Nicola Dragoni, Technical University of Denmark (DK)
+Saverio Giallorenzo, University of Southern Denmark (DK)
+Claudio Guidi, italianaSoftware s.r.l. (IT)
+Dimka Karastoyanova, University of Groningen (NL)
+Oliver Kopp, JabRef (DE)
+Philipp Leitner, University of Gothenburg (SE)
+Daniel Lübke, Leibniz Universität Hannover (DE)
+Tiziana Margaria, Lero (IE)
+Jacopo Mauro, University of Oslo (NO)
+Andrea Melis, University of Bologna (IT)
+Claus Pahl, Free University of Bozen-Bolzano (IT)
+Cesare Pautasso, University of Lugano (CH)
+Marco Peressotti, University of Southern Denmark (DK)
+Marco Prandini, University of Bologna (IT)
+Florian Rademacher, University of Applied Sciences and Arts Dortmund (DE)
+Larisa Safina, Inria - Lille Nord Europe (FR)
+Jacopo Soldani, University of Pisa (IT)
+Davide Taibi, Tampere University of Technology (FI)
+Massimo Villari, University of Messina (IT)
+Gianluigi Zavattaro, University of Bologna (IT)
+Olaf Zimmermann, HSR FHO (IT)
+
+More TBA
 
 
 Note about COVID-19
 -------------------
 
-We are continuously monitoring the COVID-19 situation from local authorities and the World Health Organization. Microservices 2020 is half a year away, and we are confident that COVID-19 emergency will pass over and the conference will be held in September, as planned. And, if necessary, alternative solutions, such as postponement, remote presentations, etc will be looked into and identified.
+We are continuously monitoring the COVID-19 situation from local authorities and the World Health Organization. Microservices 2020 is half a year away, and we are hopeful that COVID-19 emergency will pass over and the conference will be held in September, as planned. And, if necessary, alternative solutions, such as postponement, remote presentations, etc will be looked into and identified.
 
 
 Contact Information

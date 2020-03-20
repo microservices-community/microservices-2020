@@ -5,7 +5,7 @@ layout: home
 ---
 
 <div class="alert alert-info hidden-print" role="alert">
-<span class="glyphicon glyphicon-info-sign"></span> We are continuously monitoring the COVID-19 situation from local authorities and the World Health Organization. Microservices 2020 is half a year away, and we are confident that COVID-19 emergency will pass over and the conference will be held in September, as planned. And, if necessary, alternative solutions, such as postponement, remote presentations, etc will be looked into and identified.
+<span class="glyphicon glyphicon-info-sign"></span> We are continuously monitoring the COVID-19 situation from local authorities and the World Health Organization. Microservices 2020 is half a year away, and we are hopeful that COVID-19 emergency will pass over and the conference will be held in September, as planned. And, if necessary, alternative solutions, such as postponement, remote presentations, etc will be looked into and identified.
 </div>
 
 <ul class="nav nav-tabs nav-justified">

@@ -28,7 +28,7 @@ layout: page
 ###	Industrial Liaison Chair
 <table>
   <tbody>
-    <tr><td><a href="http://claudioguidi.blogspot.com/">Claudio Guidi</a></td><td>italianaSoftware (IT)</td></tr>
+    <tr><td><a href="http://claudioguidi.blogspot.com/">Claudio Guidi</a></td><td>italianaSoftware s.r.l. (IT)</td></tr>
   </tbody>
 </table>
 ### Publicity Chair
@@ -45,4 +45,39 @@ layout: page
   </tbody>
 </table>
 ### Program Committee
-TBA
+
+<table>
+  <tbody>
+    <tr><td>Davide Berardi</td><td>University of Bologna (IT)</td></tr>
+    <tr><td>Simon Bliudze</td><td>INRIA (FR)</td></tr>
+    <tr><td>Chiara Bodei</td><td>Pisa University (IT)</td></tr>
+    <tr><td>Elisabetta Di Nitto</td><td>Politecnico di Milano (IT)</td></tr>
+    <tr><td>Nicola Dragoni</td><td>Technical University of Denmark (DK)</td></tr>
+    <tr><td>Saverio Giallorenzo</td><td>University of Southern Denmark (DK)</td></tr>
+    {%- comment -%}
+    <tr><td>Claudio Guidi</td><td>italianaSoftware s.r.l. (IT)</td></tr>
+    {%- endcomment -%}
+    <tr><td>Dimka Karastoyanova</td><td>University of Groningen (NL)</td></tr>
+    <tr><td>Oliver Kopp</td><td>JabRef (DE)</td></tr>
+    <tr><td>Philipp Leitner</td><td>University of Gothenburg (SE)</td></tr>
+    <tr><td>Daniel Lübke</td><td>Leibniz Universität Hannover (DE)</td></tr>
+    <tr><td>Tiziana Margaria</td><td>Lero (IE)</td></tr>
+    <tr><td>Jacopo Mauro</td><td>University of Oslo (NO)</td></tr>
+    <tr><td>Andrea Melis</td><td>University of Bologna (IT)</td></tr>
+    <tr><td>Claus Pahl</td><td>Free University of Bozen-Bolzano (IT)</td></tr>
+    <tr><td>Cesare Pautasso</td><td>University of Lugano (CH)</td></tr>
+    <tr><td>Marco Peressotti</td><td>University of Southern Denmark (DK)</td></tr>
+    <tr><td>Marco Prandini</td><td>University of Bologna (IT)</td></tr>
+    <tr><td>Florian Rademacher</td><td>University of Applied Sciences and Arts Dortmund (DE)</td></tr>
+    <tr><td>Larisa Safina</td><td>Inria - Lille Nord Europe (FR)</td></tr>
+    <tr><td>Jacopo Soldani</td><td>University of Pisa (IT)</td></tr>
+    <tr><td>Davide Taibi</td><td>Tampere University of Technology (FI)</td></tr>
+    <tr><td>Massimo Villari</td><td>University of Messina (IT)</td></tr>
+    {%- comment -%}
+    <tr><td>Gianluigi Zavattaro</td><td>University of Bologna (IT)</td></tr>
+    <tr><td>Olaf Zimmermann</td><td>HSR FHO (IT)</td></tr>
+    {%- endcomment -%}
+  </tbody>
+</table>
+
+(More to be confirmed)
