@@ -1,12 +1,8 @@
 ---
 layout: home
-# feature_image:
-# image_source: 
 ---
 
-<div class="alert alert-info hidden-print" role="alert">
-<span class="glyphicon glyphicon-info-sign"></span> We are continuously monitoring the COVID-19 situation from local authorities and the World Health Organization. Microservices 2020 is half a year away, and we are hopeful that COVID-19 emergency will pass over and the conference will be held in September, as planned. And, if necessary, alternative solutions, such as postponement, remote presentations, etc will be looked into and identified.
-</div>
+<div class="alert alert-info hidden-print" role="alert"><span class="glyphicon glyphicon-info-sign"></span> Due to the ongoing COVID-19 situation, Microservices 2020 will take place as a virtual meeting. All the information regarding the conference (scheduling, platform, etc.) will be published on this website as soon as possible. </div>
 
 <ul class="nav nav-tabs nav-justified">
   <li role="presentation" class="active"><a href="#about">About</a></li>
@@ -16,23 +12,16 @@ layout: home
 
 <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="about">
-
   {% include_relative include_md.html file="subpages/about.md" %}
-
 </div>
 
 <div role="tabpanel" class="tab-pane" id="call-for-papers">
-
   {% include_relative include_md.html file="subpages/call_for_papers.md" %}
-
 </div>
 
 <div role="tabpanel" class="tab-pane" id="submission">
-
 {% include_relative include_md.html file="subpages/submission.md" %}
-
 </div>
-
 </div>
 
 <script>

@@ -1,8 +1,6 @@
 ---
 title: Call for sponsors
 layout: page
-# feature_image: 
-# image_source: 
 ---
 
 Corporate support funds are used to subsidize students—the lifeblood of our community—and in turn serve to raise the community profile of the supporting companies. 

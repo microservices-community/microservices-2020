@@ -1,8 +1,8 @@
 ---
 title: Contact
 layout: page
-# feature_image: 
-# image_source: 
+# feature_image: "bg-2.jpg"
+# image_source: "Christian Tomasi"
 ---
 
 <form class="form-horizontal" action="https://formspree.io/marco.prandini@unibo.it" method="POST">

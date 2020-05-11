@@ -2,6 +2,10 @@
   id: submission
   expired: false
   entries: 
+    - date: 2020-05-31
+      zone:
+        tzid: Etc/GMT-12
+        label: AoE (UTC-12)
     - date: 2020-05-15
       zone:
         tzid: Etc/GMT-12
@@ -10,6 +14,10 @@
   id: notification
   expired: false
   entries: 
+    - date: 2020-07-07
+      zone:
+        tzid: Etc/GMT-12
+        label: AoE (UTC-12)
     - date: 2020-06-26
       zone:
         tzid: Etc/GMT-12

@@ -61,12 +61,23 @@
 {% endunless %}
 {% endfor %}
 <li class="list-group-item">
-<a target="_blank" href="/important-dates.ics" title="Save important dates">
+<a target="_blank" href="{{ '/important-dates.ics' | relative_url }}" title="Save important dates">
 <div style="margin-left:18px">
 <div style="margin-left:-18px" class="glyphicon glyphicon-calendar float-left"></div>
 <span>Add to your calendar (*.ics)</span></div></a>
 </li>
 </ul>
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+  <strong>Affiliated Events</strong>
+  </div>
+  <div style="padding:10px">
+  <a href="https://bopl.cs.unibo.it" target="_blank" title="BOlogna Federated Conference on Programming Languages">
+      <img src="{{ '/assets/images/bopl.jpg' | relative_url }}" alt="BOPL2020 Banner"style="width:100%;border:0;border-radius:2px;">
+  </a>
+  </div>
 </div>
 
 <style>

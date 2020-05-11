@@ -11,8 +11,8 @@ https://www.conf-micro.services/2020/
 Important dates 
 ---------------
 
-- Submission deadline: May 15th, 2020 (AoE)
-- Notification to authors: June 26th, 2020 (AoE)
+- Submission deadline: May 31st, 2020 (AoE)
+- Notification to authors: July 07th, 2020 (AoE)
 - Camera-ready due: August 7th, 2020 (AoE)
 - Early bird registration until: August 7th, 2020 
 
@@ -81,12 +81,13 @@ Andrea Melis, University of Bologna (IT)
 
 Program Committee
 -----------------
-
+Alessandra Bagnato, SofteamGroup (FR)
 Davide Berardi, University of Bologna (IT)
 Simon Bliudze, INRIA (FR)
 Chiara Bodei, Pisa University (IT)
 Elisabetta Di Nitto, Politecnico di Milano (IT)
 Nicola Dragoni, Technical University of Denmark (DK)
+Anjana Fernando, WSO2 (US)
 Saverio Giallorenzo, University of Southern Denmark (DK)
 Claudio Guidi, italianaSoftware s.r.l. (IT)
 Dimka Karastoyanova, University of Groningen (NL)
@@ -95,26 +96,32 @@ Philipp Leitner, University of Gothenburg (SE)
 Daniel Lübke, Leibniz Universität Hannover (DE)
 Tiziana Margaria, Lero (IE)
 Jacopo Mauro, University of Oslo (NO)
+Balint Maschio, Pixis.co (FR)
 Andrea Melis, University of Bologna (IT)
+Rebecca Montanari, University of Bologna (IT)
 Claus Pahl, Free University of Bozen-Bolzano (IT)
+Anupama Pathirage, WSO2 (US)
 Cesare Pautasso, University of Lugano (CH)
 Marco Peressotti, University of Southern Denmark (DK)
 Marco Prandini, University of Bologna (IT)
 Florian Rademacher, University of Applied Sciences and Arts Dortmund (DE)
+Dakshitha Ratnayake, WSO2 (US)
 Larisa Safina, Inria - Lille Nord Europe (FR)
+Maria Seralessandri , ECB (EU)
+Adina Sirbu, SAP (DE)
 Jacopo Soldani, University of Pisa (IT)
+Raffaele Spazzoli, RedHat (US)
 Davide Taibi, Tampere University of Technology (FI)
+Stefan Tilkov, INNOQ (DE)
+Silvia Lizeth Tapia Tarifa, University of Oslo (NO)
 Massimo Villari, University of Messina (IT)
 Gianluigi Zavattaro, University of Bologna (IT)
-Olaf Zimmermann, HSR FHO (IT)
-
-More TBA
-
+Olaf Zimmermann, HSR FHO (CH)
 
 Note about COVID-19
 -------------------
 
-We are continuously monitoring the COVID-19 situation from local authorities and the World Health Organization. Microservices 2020 is half a year away, and we are hopeful that COVID-19 emergency will pass over and the conference will be held in September, as planned. And, if necessary, alternative solutions, such as postponement, remote presentations, etc will be looked into and identified.
+Due to the ongoing COVID-19 situation, Microservices 2020 will take place as a virtual meeting. All the information regarding the conference (scheduling, platform, etc.) will be posted on the conference website as soon as possible.
 
 
 Contact Information

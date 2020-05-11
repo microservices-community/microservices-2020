@@ -63,5 +63,5 @@ defaults:
       type: pages
     values:
       layout: page
-      feature_image: "bg-bologna-sunset.jpg"
+      feature_image: "bg-0.jpg"
       image_source: "Alexandros Papadopoulos"
