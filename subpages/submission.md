@@ -11,7 +11,7 @@ They must be prepared using the **EasyChair template** ([LaTeX](https://www.easy
 Contributions will be reviewed and selected by the [Program Committee]({{ '/committees/' | relative_url }}). Extended abstracts of accepted contributions will be available electronically before the conference.
 
 {% if status > 0 %}
-Contributions may be submitted via EasyChair by clicking the button below. The submission deadline is **May 31st, 2020** <acronym title="Anywhere on earth">AoE</acronym>. Resubmissions are allowed until the submission deadline.
+Contributions may be submitted via EasyChair by clicking the button below. The submission deadline is **June 10th, 2020** <acronym title="Anywhere on earth">AoE</acronym>. Resubmissions are allowed until the submission deadline.
 {% endif %}
 
 For more details on the conference's scope and topics see the <a class="link-to-tab" href="#call-for-papers">call for papers</a>.
