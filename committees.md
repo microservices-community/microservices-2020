@@ -52,7 +52,6 @@ layout: page
     <tr><td>Chiara Bodei</td><td>Pisa University (IT)</td></tr>
     <tr><td>Elisabetta Di Nitto</td><td>Politecnico di Milano (IT)</td></tr>
     <tr><td>Nicola Dragoni</td><td>Technical University of Denmark (DK)</td></tr>
-    <tr><td>Anjana Fernando</td><td>WSO2 (US)</td></tr>
     <tr><td>Saverio Giallorenzo</td><td>University of Southern Denmark (DK)</td></tr>
     {%- comment -%}
     <tr><td>Claudio Guidi</td><td>italianaSoftware s.r.l. (IT)</td></tr>
@@ -81,7 +80,6 @@ layout: page
     <tr><td>Jacopo Soldani</td><td>University of Pisa (IT)</td></tr>
     <tr><td>Raffaele Spazzoli</td><td>RedHat (US)</td></tr>
     <tr><td>Davide Taibi</td><td>Tampere University of Technology (FI)</td></tr>
-    <tr><td>Stefan Tilkov</td><td>INNOQ (DE)</td></tr>
     <tr><td>Silvia Lizeth Tapia Tarifa</td><td>University of Oslo (NO)</td></tr>
     <tr><td>Massimo Villari</td><td>University of Messina (IT)</td></tr>
     {%- comment -%}
