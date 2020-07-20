@@ -16,17 +16,17 @@ community_badge:
 
 # Site navigation -------------------------------------------------------------
 navigation_header:
-  Home:              /
-# Attending:         /attending/
-# Keynotes:          /keynotes/
-# Program:           /program/
-# Photos:            /photos/
-# Satellite Events:  /satellite/
-# Social Events:     /social_event/
-  Committees:        /committees/
-# Registration:      /registration/
-  Sponsoring:        /sponsors/
-  Contact:           /contact/  
+  Home:                /
+  Attending:           /attending/
+# Keynotes:            /keynotes/
+  Accepted abstracts:  /accepted/
+# Program:             /program/
+# Photos:              /photos/
+# Satellite Events:    /satellite/
+# Social Events:       /social_event/
+  Committees:          /committees/
+  Sponsoring:          /sponsors/
+  Contact:             /contact/  
 
 # Exclude from build -----------------------------------------------------------
 exclude:

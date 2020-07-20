@@ -1,8 +1,102 @@
-- authors:
-    - Jane Doe
-    - John Doe
-  title: Paper Title
-  paper: empty_paper.pdf
-  slides: empty_slides.pdf
-  abstract: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed tempus urna et pharetra pharetra. Nibh sed pulvinar proin gravida hendrerit lectus. In nulla posuere sollicitudin aliquam ultrices sagittis. Commodo nulla facilisi nullam vehicula ipsum a arcu. Enim praesent elementum facilisis leo vel fringilla est. Habitant morbi tristique senectus et netus et malesuada. Tristique risus nec feugiat in fermentum posuere. Velit sed ullamcorper morbi tincidunt. Nullam non nisi est sit. Sit amet venenatis urna cursus eget nunc. Placerat duis ultricies lacus sed. Duis ultricies lacus sed turpis tincidunt id aliquet risus. Sed libero enim sed faucibus. Quam vulputate dignissim suspendisse in est. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant.
+# - authors:
+#     - Jane Doe
+#     - John Doe
+#   title: Paper Title
+#   paper: empty_paper.pdf
+#   slides: empty_slides.pdf
+#   abstract: |
+#     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed tempus urna et pharetra pharetra. Nibh sed pulvinar proin gravida hendrerit lectus. In nulla posuere sollicitudin aliquam ultrices sagittis. Commodo nulla facilisi nullam vehicula ipsum a arcu. Enim praesent elementum facilisis leo vel fringilla est. Habitant morbi tristique senectus et netus et malesuada. Tristique risus nec feugiat in fermentum posuere. Velit sed ullamcorper morbi tincidunt. Nullam non nisi est sit. Sit amet venenatis urna cursus eget nunc. Placerat duis ultricies lacus sed. Duis ultricies lacus sed turpis tincidunt id aliquet risus. Sed libero enim sed faucibus. Quam vulputate dignissim suspendisse in est. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant.
+- authors: 
+  - Philipp Heisig
+  - Sabine Sachweh
+  title: "Towards a Model-driven Testing Approach for Microservice Architectures in the Automotive Domain"
+- authors: 
+  - Florian Rademacher
+  title: "A Non-Intrusive Approach to Extend Microservice Modeling Languages with Architecture Pattern Support"
+- authors: 
+  - Niklas Sprenger
+  - Bastian Schierbaum
+  - Jonas Sorgalla
+  title: "Event-driven Monitoring of Business Processes in Microservice Architecture"
+- authors: 
+  - Claudio Guidi
+  title: "Towards autonomic microservices"
+- authors: 
+    - Jonas Sorgalla
+  title: "The Process of Microservice Development: Exploring the Unknown"
+- authors: 
+  - Philip Wizenty
+  - Florian Rademacher
+  title: "Generation of Container-Based Deployment Units Using an Ecosystem of Microservice-Oriented Modeling Languages"
+- authors: 
+  - Antonio Bucchiarone
+  - Kemal Soysal
+  - Claudio Guidi
+  title: "Automatic Migration to Microservice: A Model-Driven Approach"
+- authors: 
+  - Quirino Zagarese
+  - Pedro Nuno Santos
+  - Vincenzo Candela
+  - Francesco Sorice
+  title: "Dockerunit: Multi-replica Ephemeral Deployments for Advanced Testing of Microservices"
+- authors: 
+  - Faruk Pasic
+  - Matthias Becker
+  title: "A Microservice-based Condition Monitoring System for the Beer Brewing Process"
+- authors: 
+  - Giuseppe De Palma
+  - Saverio Giallorenzo
+  - Jacopo Mauro
+  title: "Allocation Priority Policies for Reliable Serverless Scheduling Performance"
+- authors: 
+  - Josef Spillner
+  - Daiana Boruta
+  - Tobias Brunner
+  - Simon Gerber
+  - Adrian Kosmaczewski
+  title: "Syn: GitOps on Stereoids with Kubernetes the Swiss Way"
+- authors: 
+  - Simone Fardella
+  title: "How Microservices helped modernize an IoT Platform"
+- authors: 
+  - Davide Berardi
+  - Saverio Giallorenzo
+  - Jacopo Mauro
+  - Andrea Melis
+  - Fabrizio Montesi
+  title: "A Survey on Microservices Security: Preliminary Findings"
+- authors: 
+  - Tullio Vardanega
+  - Riccardo Cardin
+  title: "Microservices and curricular education"
+- authors: 
+  - Alessandro Molari
+  - Eugenio Cavina
+  - Eugenio Pierfederici
+  title: "Towards Microservices Security Control Layer"
+- authors: 
+  - Sindre Grønstøl Haugeland
+  - Phu H. Nguyen
+  - Franck Chauvel
+  - Hui Song
+  title: "Migrating Monolithic Applications to Microservices-based Customizable Multi-tenant Applications"
+- authors: 
+  - Saverio Giallorenzo
+  - Fabrizio Montesi
+  - Marco Peressotti
+  - Luisa Zeppelin
+  title: "Programming Microservice Choreographies: a security use case"
+- authors: 
+  - Linda Brodo
+  - Chiara Bodei
+  - Roberto Bruni
+  title: "A Language for Microservices Interactions"
+- authors: 
+  - Luca Acquaviva
+  - Filippo Bosi
+  title: "Practices and Patterns of migration from monoliths to microservices"
+- authors: 
+  - Simon Schönwälder
+  - Pascal Weisenburger
+  - Guido Salvaneschi
+  title: "Multitier languages for Microservice Architectures"

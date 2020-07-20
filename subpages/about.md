@@ -12,17 +12,27 @@ Like Microservices 2019, this edition will be co-located and intertwined with th
 {% for keynote in site.data.keynotes %}
   <div class="panel panel-primary" style="display:inline-block; padding:10px; margin:10px; width: 30%">
     {% if keynote.picture %}
+    <div class="row text-center">
     <img class="card-img" style="max-height:120px;max-width:120px;" src="{{ 'assets/images/speakers/' | append: keynote.picture | relative_url }}">
+    </div>
     {% endif %}
     <div class="card-body">    
-      {% assign anchor = keynote.title | slugify %}
+      {%- if keynote.title -%}
+      {%- assign anchor = keynote.title | slugify -%}
       <h4 class="card-title"><a href="{{ 'keynotes/#' | append: anchor  | relative_url }}">{{keynote.title}}</a></h4>
-      <p class="card-text"> {{keynote.speaker}} <br>
+      {%- endif -%}
+      <p class="card-text">
+      {%- if keynote.website -%}
+        <a href="{{ keynote.website }}"> {{keynote.speaker}} </a>
+      {%- else -%}
+        {{keynote.speaker}}
+      {%- endif -%}<br>
       {{keynote.affiliation}} </p>
-      <a class="card-link" href="{{ 'keynotes/#' | append: anchor  | relative_url }}">Details</a>
+      {% comment %}<a class="card-link" href="{{ 'keynotes/#' | append: anchor  | relative_url }}">Details</a>{% endcomment %}
     </div>
   </div>
 {% endfor %}
+  <p> (More to be announced) </p>
 {% else %}
 TBA
 {% endif %}

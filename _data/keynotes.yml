@@ -1,0 +1,14 @@
+- speaker: Antonio Brogi 
+  picture: antonio-brogi.jpg
+  affiliation: University of Pisa (IT)
+  website: "http://pages.di.unipi.it/brogi/"
+- speaker: Vaughn Vernon 
+  picture: vaughn-vernon.jpg
+  affiliation: Kalel
+  website: "https://vaughnvernon.co/"
+  bio: |
+    Vaughn Vernon is a software developer and architect with more than 30 years of experience in a broad range of business domains. Vaughn is a leading expert in Domain-Driven Design, and a champion of simplicity and reactive systems. He consults and teaches around Domain-Driven Design and reactive software development, helping teams and organizations realize the potential of business driven and reactive systems as they transition from technology driven legacy web implementation approaches. As he does so, he puts strong emphasis on embracing simplicity whenever possible. Vaughn is the author of three books: Implementing Domain-Driven Design, Reactive Messaging Patterns with the Actor Model, and Domain-Driven Design Distilled, all published by Addison-Wesley.
+- speaker: Sanjiva Weerawarana 
+  picture: sanjiva-weerawarana.gif
+  affiliation: WSO2 (US)
+  website: "https://wso2.com/about/team/sanjiva-weerawarana/"
