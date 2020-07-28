@@ -38,7 +38,7 @@ layout: page
 ### Local Chairs
 <table>
   <tbody>
-    <tr><td><a href="https://www.unibo.it/sitoweb/mario.bravetti/en">Davide Berardi</a></td><td>University of Bologna (IT)</td></tr>
+    <tr><td><a href="http://cs.unibo.it/~davide.berardi6/">Davide Berardi</a></td><td>University of Bologna (IT)</td></tr>
     <tr><td><a href="https://www.unibo.it/sitoweb/a.melis">Andrea Melis</a></td><td>University of Bologna (IT)</td></tr>
   </tbody>
 </table>
