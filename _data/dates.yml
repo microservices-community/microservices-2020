@@ -24,7 +24,7 @@
         label: AoE (UTC-12)
 - summary: Camera-ready
   id: camera-ready
-  expired: false
+  expired: true
   entries: 
     - date: 2020-08-07
       zone:
@@ -32,7 +32,7 @@
         label: AoE (UTC-12)
 - summary: Early bird registration
   id: early-bird
-  expired: false
+  expired: true
   entries: 
     - date: 2020-08-07
       zone:
