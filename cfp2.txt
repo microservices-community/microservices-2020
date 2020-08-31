@@ -1,0 +1,142 @@
+International Conference on Microservices: Call for Participation
+=================================================================
+
+Third International Conference on Microservices
+
+September 8th-10th 2020, Virtual Event
+
+https://www.conf-micro.services/2020/
+
+
+Attending
+---------
+
+Microservices 2020 is part of the BOlogna Federated Conference on Programming Languages (BOPL) 2020. For information about registration and participation, please refer to the website of the federated event https://bopl.cs.unibo.it/attending.html
+
+
+Theme and Topics
+----------------
+
+The theme of this edition is the interplay between microservices and the cyber security.
+
+- On the one hand, the adoption of microservices is fostering the adoption of new architectural patterns and software construction practices; understanding the security properties (or the emerging vulnerabilities) of the resulting constructs calls for the development of a fresh mindset in analysts, designers and testers alike. In addition, the additional middleware and infrastructure typically proposed for the management of microservice-based architectures could expand the attack surface of the systems.
+- On the other hand, the same frameworks could instead prove valuable allies to collect security-relevant information and to coordinate defenses. The above considerations concern the intrinsic interplay between the fields of microservices and security. The broader application context is peculiarly sensitive to them: microservices are often adopted as an accelerator of digital transformations as the successful past edition(s) of the conference have shown. In this light, security issues should be a primary concern for microservices researchers and practitioners, as they provide an opportunity to integrate security-by-design into the recent advances in software development - triggered and amplified by microservices principles, patterns, and technologies.
+
+Topics of interest are not limited to our cyber security theme. We are interested in all aspects and phases of the design and implementation of microservice architectures:
+
+- Software engineering methods for microservices, specifically (but not limited to) agile service design practices, behavior- and domain-driven design
+- Identification, specification, and realization of candidate services
+- Patterns for IDEAL cloud-native application architectures; service API design and management
+- Microservices infrastructure components: API gateways, side cars, and service meshes; reactive messaging brokers; service registries; service containers and cluster managers; infrastructure as code
+- Function-as-a-service and serverless cloud offerings; service-based event sourcing and data streaming architectures
+- Security and other service quality concerns (consistency, availability, recoverability) in microservices; dealing with General Data Protection Regulation (GDPR) compliance and other data privacy requirements
+- Testing for microservices: unit tests, system tests, acceptance and regression tests, test-driven service development
+- Formal models for microservices
+- Verification (both static and runtime) of microservice systems
+- DevOps for microservices, in particular (but not limited to) continuous deployment and distributed monitoring
+- Microservice management: fault, configuration, accounting, performance, security
+- Discovery/recovery and reverse engineering of microservices solutions
+- Microservice evolution
+- Programming languages, notations, and techniques for microservices
+- Empirical studies of microservices adoption
+
+We solicit contributed talks based work in progress, scientific work published or submitted for publication, or practical experience reports. Authors wishing to present their work are invited to submit extended abstracts following the submission guidelines. Abstracts and presentations must be in English.
+
+Programme
+---------
+
+The conference program is available at https://www.conf-micro.services/2020/program/ and consists of the following contributions from the community.
+
+* Philipp Heisig and Sabine Sachweh - "Towards a Model-driven Testing Approach for Microservice Architectures in the Automotive Domain"
+* Florian Rademacher - "A Non-Intrusive Approach to Extend Microservice Modeling Languages with Architecture Pattern Support"
+* Niklas Sprenger, Bastian Schierbaum, and Jonas Sorgalla - "Event-driven Monitoring of Business Processes in Microservice Architecture"
+* Claudio Guidi - "Towards autonomic microservices"
+* Jonas Sorgalla - "The Process of Microservice Development: Exploring the Unknown"
+* Philip Wizenty and Florian Rademacher - "Generation of Container-Based Deployment Units Using an Ecosystem of Microservice-Oriented Modeling Languages"
+* Antonio Bucchiarone, Kemal Soysal, and Claudio Guidi - "Automatic Migration to Microservice: A Model-Driven Approach"
+* Quirino Zagarese, Pedro Nuno Santos, Vincenzo Candela, and Francesco Sorice - "Dockerunit: Multi-replica Ephemeral Deployments for Advanced Testing of Microservices"
+* Faruk Pasic and Matthias Becker - "A Microservice-based Condition Monitoring System for the Beer Brewing Process"
+* Giuseppe De Palma, Saverio Giallorenzo, and Jacopo Mauro - "Allocation Priority Policies for Reliable Serverless Scheduling Performance"
+* Josef Spillner, Daiana Boruta, Tobias Brunner, Simon Gerber, and Adrian Kosmaczewski - "Syn: GitOps on Stereoids with Kubernetes the Swiss Way"
+* Simone Fardella - "How Microservices helped modernize an IoT Platform"
+* Davide Berardi, Saverio Giallorenzo, Jacopo Mauro, Andrea Melis, and Fabrizio Montesi - "A Survey on Microservices Security: Preliminary Findings"
+* Tullio Vardanega and Riccardo Cardin - "Microservices and curricular education"
+* Alessandro Molari, Eugenio Cavina, and Eugenio Pierfederici - "Towards Microservices Security Control Layer"
+* Sindre Grønstøl Haugeland, Phu H. Nguyen, Franck Chauvel, and Hui Song - "Migrating Monolithic Applications to Microservices-based Customizable Multi-tenant Applications"
+* Saverio Giallorenzo, Fabrizio Montesi, Marco Peressotti, and Luisa Zeppelin - "Programming Microservice Choreographies: a security use case"
+* Linda Brodo, Chiara Bodei, and Roberto Bruni - "A Language for Microservices Interactions"
+* Luca Acquaviva and Filippo Bosi - "Practices and Patterns of migration from monoliths to microservices"
+* Simon Schönwälder, Pascal Weisenburger, and Guido Salvaneschi - "Multitier languages for Microservice Architectures"
+* Anjana Fernando, Saverio Giallorenzo, Claudio Guidi, Sameera Jayasoma, Balint Maschio, Jacopo Mauro, Fabrizio Montesi, Marco Montesi, Marco Peressotti, Matthias Dieter Wallnöfer, and Lakmal Warusawithana - "The Frontier of Microservice Programming" 
+
+
+
+Organisation
+------------
+
+General Chair: 
+Maurizio Gabbrielli, University of Bologna (IT)
+
+Program Chairs: 
+Marco Prandini, University of Bologna (IT)
+Gianluigi Zavattaro, University of Bologna (IT)
+Olaf Zimmermann, University of Applied Sciences of Eastern Switzerland, Rapperswil (HSR OST) (CH)
+
+Industrial Liaison Chair:
+Claudio Guidi, italianaSoftware (IT)
+
+Publicity Chair:
+Marco Peressotti, University of Southern Denmark (DK)
+
+Local Chairs:
+Davide Berardi, University of Bologna (IT)
+Andrea Melis, University of Bologna (IT)
+
+
+Program Committee
+-----------------
+Alessandra Bagnato, SofteamGroup (FR)
+Davide Berardi, University of Bologna (IT)
+Simon Bliudze, INRIA (FR)
+Chiara Bodei, Pisa University (IT)
+Elisabetta Di Nitto, Politecnico di Milano (IT)
+Nicola Dragoni, Technical University of Denmark (DK)
+Saverio Giallorenzo, University of Southern Denmark (DK)
+Claudio Guidi, italianaSoftware s.r.l. (IT)
+Dimka Karastoyanova, University of Groningen (NL)
+Oliver Kopp, JabRef (DE)
+Philipp Leitner, University of Gothenburg (SE)
+Daniel Lübke, Leibniz Universität Hannover (DE)
+Tiziana Margaria, Lero (IE)
+Jacopo Mauro, University of Oslo (NO)
+Balint Maschio, Pixis.co (FR)
+Andrea Melis, University of Bologna (IT)
+Rebecca Montanari, University of Bologna (IT)
+Claus Pahl, Free University of Bozen-Bolzano (IT)
+Anupama Pathirage, WSO2 (US)
+Cesare Pautasso, University of Lugano (CH)
+Marco Peressotti, University of Southern Denmark (DK)
+Marco Prandini, University of Bologna (IT)
+Florian Rademacher, University of Applied Sciences and Arts Dortmund (DE)
+Dakshitha Ratnayake, WSO2 (US)
+Larisa Safina, Inria - Lille Nord Europe (FR)
+Maria Seralessandri , ECB (EU)
+Adina Sirbu, SAP (DE)
+Jacopo Soldani, University of Pisa (IT)
+Raffaele Spazzoli, RedHat (US)
+Davide Taibi, Tampere University of Technology (FI)
+Silvia Lizeth Tapia Tarifa, University of Oslo (NO)
+Massimo Villari, University of Messina (IT)
+Gianluigi Zavattaro, University of Bologna (IT)
+Olaf Zimmermann, HSR FHO (CH)
+
+Note about COVID-19
+-------------------
+
+Due to the ongoing COVID-19 situation, Microservices 2020 will take place as a virtual meeting. All the information regarding the conference (scheduling, platform, etc.) is posted on the conference website.
+
+
+Contact Information
+-------------------
+
+Please contact us if you have questions: https://www.conf-micro.services/2020/contact/ 

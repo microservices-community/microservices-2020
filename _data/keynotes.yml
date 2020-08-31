@@ -2,13 +2,32 @@
   picture: antonio-brogi.jpg
   affiliation: University of Pisa (IT)
   website: "http://pages.di.unipi.it/brogi/"
+  bio: |
+   Antonio Brogi is full professor at the Department of Computer Science, University of Pisa (Italy) since 2004, where he leads the Service-Oriented, Cloud and Fog Computing (SOCC) research group. He is currently elected Coordinator of the Ph.D. School in Computer Science of UNIPI. He holds a Ph.D. in Computer Science (1993, University of Pisa). His research interests include service-oriented, cloud and fog computing, coordination and adaptation of software elements, and formal methods. He has published the results of his research in over 200 articles in international journals and conferences, and his H-index is 34 according to Google Scholar. He is member of the editorial board of the journals “IEEE Transactions on Cloud Computing”, “Journal of Computer Languages” and “Electronics”. He has participated in the program committee of a number of international conferences and workshops in his areas of research, and he is member of the steering committee of the ESOCC and FOCLASA conference series. He has been participating in various international and national research projects, both as project leader and as principal investigator for his Department. (For further information please see (http://pages.di.unipi.it/brogi/)).
+  title: "Microservices beyond COVID-19"
+  abstract: |
+    How can we check whether a software application satisfies the main principles of microservices and —if not— how should we refactor it? To answer these questions, we will discuss the capacity of existing techniques to automatically extract an architectural description of a microservice-based application, identify architectural smells possibly violating microservices’ principles, and select suitable refactorings to resolve them. We will also discuss how (minimal) modelling of microservice-based applications can considerably simplify their design and automate their container-based deployment. Finally, we will discuss some interesting directions for future research on  microservices.
 - speaker: Vaughn Vernon 
   picture: vaughn-vernon.jpg
   affiliation: Kalel
   website: "https://vaughnvernon.co/"
   bio: |
     Vaughn Vernon is a software developer and architect with more than 30 years of experience in a broad range of business domains. Vaughn is a leading expert in Domain-Driven Design, and a champion of simplicity and reactive systems. He consults and teaches around Domain-Driven Design and reactive software development, helping teams and organizations realize the potential of business driven and reactive systems as they transition from technology driven legacy web implementation approaches. As he does so, he puts strong emphasis on embracing simplicity whenever possible. Vaughn is the author of three books: Implementing Domain-Driven Design, Reactive Messaging Patterns with the Actor Model, and Domain-Driven Design Distilled, all published by Addison-Wesley.
+  title: "Rethinking Legacy and Monolithic Systems"
+  abstract: |
+    Legacy monoliths have generated profit for decades. Gradually the myriad of changes to these revenue generators have led to a paralyzing tangle. The recurring plea for help? Teams are demoralized by the mud, and hardware has outpaced software architecture. How can you achieve mobility and relief? I discuss practical steps that can be made toward enterprise modernization.
 - speaker: Sanjiva Weerawarana 
-  picture: sanjiva-weerawarana.gif
+  picture: sanjiva-weerawarana.jpg
   affiliation: WSO2 (US)
   website: "https://wso2.com/about/team/sanjiva-weerawarana/"
+  bio: |
+    Sanjiva Weerawarana received a Ph.D. in Computer Science from Purdue University, USA in 1994. After teaching at Purdue for 3 years, he joined IBM Research, New York, USA where he continued to work for 8 years. In 2001 he returned to Sri Lanka and started the non-profit Lanka Software Foundation in 2003. In 2005, he left IBM Research to start WSO2, an enterprise technology company headquartered in Sri Lanka. Serving as the CEO for 12 years, he built WSO2 from a startup to a global business of 600+ employees with 500+ customers in 70+ countries. In 2016 he started a project to create the Ballerina programming language and left as CEO in 2017 to focus on that project. Sanjiva re-joined WSO2 as CEO from 2020.
+
+    From 2013 to 2018 he volunteered as an honorary officer to help the Sri Lanka Army improve its digital infrastructure. In Sri Lanka, he also helps the government digitally transform itself and to improve transparency of the government as a volunteer effort from the Lanka Software Foundation.
+
+    He is currently also a member of the Board of the Sri Lanka Institute of Nanotechnology, a Member of the IT Standing Committee of the University Grants Commission, a Member of the National Science Foundation Working Committee on Technology, a Member of the Ceylon Chamber of Commerce Committee and a Non-Executive Director of Sampath Bank.
+  title: "Towards language support for programming microservices"
+  abstract: |
+    Microservices come in many shapes and sizes. General purpose programming languages treat all microservices as if they are the same as any other kind of value in the language. Yet RESTful services, GraphQL services, RPC style services and so on all have their own peculiarities and abstractions that define those service kinds. Services also do not exist in isolation - they interact with other services and thus require coordination and concepts from session typing to provide more static guarantees on overall system reliability.
+    
+    In this talk we explore the design of services in Ballerina, a new programming language designed for the cloud native era. We discuss how a programming language can better support the design, implementation & operation of services. We discuss how various qualities of service can be applied to the base service layer to create a comprehensive service development platform.

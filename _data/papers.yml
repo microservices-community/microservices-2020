@@ -2,101 +2,212 @@
 #     - Jane Doe
 #     - John Doe
 #   title: Paper Title
-#   paper: empty_paper.pdf
+#   extended_abstract: empty_paper.pdf
 #   slides: empty_slides.pdf
 #   abstract: |
 #     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed tempus urna et pharetra pharetra. Nibh sed pulvinar proin gravida hendrerit lectus. In nulla posuere sollicitudin aliquam ultrices sagittis. Commodo nulla facilisi nullam vehicula ipsum a arcu. Enim praesent elementum facilisis leo vel fringilla est. Habitant morbi tristique senectus et netus et malesuada. Tristique risus nec feugiat in fermentum posuere. Velit sed ullamcorper morbi tincidunt. Nullam non nisi est sit. Sit amet venenatis urna cursus eget nunc. Placerat duis ultricies lacus sed. Duis ultricies lacus sed turpis tincidunt id aliquet risus. Sed libero enim sed faucibus. Quam vulputate dignissim suspendisse in est. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant.
-- authors: 
+- id: 1
+  authors: 
   - Philipp Heisig
   - Sabine Sachweh
   title: "Towards a Model-driven Testing Approach for Microservice Architectures in the Automotive Domain"
-- authors: 
+  extended_abstract: paper_1.pdf
+  abstract: |
+    The rapid growth and the tremendous number of connected vehicles on the road makes the connected vehicle domain a major element of the Internet of Things. However, vehicles operate in a safety-critical and time-sensitive environment with changing conditions. Mobility services running in the Cloud and serving multiple and a varying number of vehicles on demand must be tested with a broad range of connected vehicles including their interaction with the environment. The required massive amount of vehicle-specific data cannot be provided by occasionally applied approaches, e. g. real test drives. Thus, the authors propose a model-based testing methodologiy via simulators, that do not exhibit any real hardware components, but rather foster a virtual test environment that can be easily set up, replicated, and used for various connected vehicle scenarios.
+- id: 3 
+  authors: 
   - Florian Rademacher
   title: "A Non-Intrusive Approach to Extend Microservice Modeling Languages with Architecture Pattern Support"
-- authors: 
+  extended_abstract: paper_3.pdf
+  abstract: |
+    The adoption of Microservice Architecture (MSA) is expected to increase software quality attributes like scalability, maintainability, and reliability. In particular, monolithic architectures are expected to benefit from a migration to MSA. However, it also introduces additional complexity in architecture design, implementation, and operation. To cope with this complexity, we investigate the application of Model-driven Engineering to MSA engineering. Therefore, we developed a set of textual modeling languages, that addresses the viewpoints and concerns of different stakeholder groups in MSA engineering, in recent works.
+    By intent, our modeling languages only integrate concepts and keywords for basic building blocks of MSA. In particular, we do not provide built-in concepts for architecture patterns to increase languages' learnability and stability. Instead, we implemented an aspect mechanism to flexibly augment model elements with metadata.
+    In this paper, we present an approach based on this aspect mechanism to non-intrusively extend our modeling languages with architecture pattern support. Therefore, we illustrate the specification of aspects and the implementation of aspect constraints to ensure pattern-compliance. We illustrate our approach by means of the Event Sourcing and Command Query Responsibility Segregation patterns, both becoming increasingly popular in MSA engineering.
+- id: 4
+  authors: 
   - Niklas Sprenger
   - Bastian Schierbaum
   - Jonas Sorgalla
   title: "Event-driven Monitoring of Business Processes in Microservice Architecture"
-- authors: 
+  extended_abstract: paper_4.pdf
+  abstract: |
+    Increasingly complex software systems and the business processes behind them can quickly become intransparent and difficult for users to understand. Especially when processes fail or are delayed, it is important to provide users with a simple and fast way of monitoring so that they can react accordingly. In our talk, we use the example of the logistics company Vanderlande to show how successful process monitoring can be realized by combining BPMN and an event-based Microservice Architecture.
+- id: 5
+  authors: 
   - Claudio Guidi
   title: "Towards autonomic microservices"
-- authors: 
+  extended_abstract: paper_5.pdf
+  abstract: |
+    Autonomic computing is a key challenge for system engineers. It promises to address issues related to system configuration and maintenance by leaving the responsibility of configuration and reparation to the components themselves.In this presentation, I propose a reference architecture for allowing microservices to interact with the execution environment in order to modify their own structure. A proof of concept example will be provided in Jolie: an auto-splitting monolith. It is an application that is deployed as a monolith and that asks to change its architecture at runtime into a microservice based one and viceversa. The main ambition of this work is to trigger a discussion for reasoning about a standard reference architecture for autonomic microservices.
+- id: 6
+  authors: 
     - Jonas Sorgalla
   title: "The Process of Microservice Development: Exploring the Unknown"
-- authors: 
+  extended_abstract: paper_6.pdf
+  abstract: |
+    The development process of Microservice Architectures is a place of many experience reports from companies like Netflix or Spotify. However, not every company is a major enterprise itself and the questions of how microservice development is implemented in smaller companies and how science could contribute remain open ones. Therefore, we conducted an explorative interview study with five smaller companies across six cases, which we analyzed using the Grounded Theory Method. Our results suggest that large-scale agile process models are highly customized by the enterprises and architectural modeling currently plays only a minor role due to perceived inefficiency. 
+- id: 7
+  authors: 
   - Philip Wizenty
   - Florian Rademacher
   title: "Generation of Container-Based Deployment Units Using an Ecosystem of Microservice-Oriented Modeling Languages"
-- authors: 
+  extended_abstract: paper_7.pdf
+  abstract: |
+    The configuration of container-based deployments for Microservice Architecture is a complex and error-prone process. There are a variety of technologies that can be used for the deployment of the system. These not only have individual configuration options, but also differ in the configuration format. In addition, the configuration of the deployment is distributed to several different files. In our approach, we present a code generation pipeline for generating service specific deployment configurations including files for service composition and orchestration.
+- id: 8
+  authors: 
   - Antonio Bucchiarone
   - Kemal Soysal
   - Claudio Guidi
   title: "Automatic Migration to Microservice: A Model-Driven Approach"
-- authors: 
+  extended_abstract: paper_8.pdf
+  abstract: |
+    In this talk, we present a model-driven approach for the automatic migration to microservices. The approach is implemented by means of JetBrains MPS, a text-based metamodelling framework, and validated using a first migration example from a Java-based application to Jolie - a programming language for defining microservices.
+- id: 10
+  authors: 
   - Quirino Zagarese
   - Pedro Nuno Santos
   - Vincenzo Candela
   - Francesco Sorice
   title: "Dockerunit: Multi-replica Ephemeral Deployments for Advanced Testing of Microservices"
-- authors: 
+  extended_abstract: paper_10.pdf
+  abstract: |
+    We present Dockerunit: a Java framework that enables declarative tests specifications and manages the full test lifecycle for dozens of multi-replica Docker services, without relying on complex orchestration platforms like Kubernetes.
+- id: 11
+  authors: 
   - Faruk Pasic
   - Matthias Becker
   title: "A Microservice-based Condition Monitoring System for the Beer Brewing Process"
-- authors: 
+  extended_abstract: paper_11.pdf
+  abstract: |
+    In this work, we present our condition monitoring system for the beer brewing process that is based on the microservice architecture. The system follows the condition monitoring software specification defined by the ISO 13374 standard, where each data processing functional block, e.g., prognostics assessment, is implemented as an independent software module. Microservices showed to be a good choice for condition monitoring systems as these systems often demand new analytic services and scalable software architecture. We outline our condition monitoring microservice architecture and report on lessons learned. 
+- id: 12
+  authors: 
   - Giuseppe De Palma
   - Saverio Giallorenzo
   - Jacopo Mauro
   title: "Allocation Priority Policies for Reliable Serverless Scheduling Performance"
-- authors: 
+  extended_abstract: paper_12.pdf
+  abstract: |
+    Serverless computing is a Cloud development paradigm where developers write and compose stateless functions, abstracting from their deployment and scaling. The paradigm has been recently associated to that of stateless Microservices architectures.
+    In this paper, we address the problem of function-execution scheduling, i.e., how to schedule the execution of Serverless functions to optimise their performance against some user-defined goals. We introduce a declarative language of Allocation Priority Policies (APP) to specify policies that inform the scheduling of function execution. We present a prototypical implementation of APP as an extension of Apache OpenWhisk and we validate it by i) implementing a use case combining IoT, Edge, and Cloud Computing and ii) by comparing its performance to an alternative implementation that uses the vanilla OpenWhisk stack.
+- id: 13
+  authors: 
   - Josef Spillner
   - Daiana Boruta
   - Tobias Brunner
   - Simon Gerber
   - Adrian Kosmaczewski
   title: "Syn: GitOps on Stereoids with Kubernetes the Swiss Way"
-- authors: 
+  extended_abstract: paper_13.pdf
+  abstract: |
+    Kubernetes has become one of the leading platforms for deploying and operating microservice-based applications. With its native support for containers and cloud functions, it has strong service scheduling, scaling and isolation features. But deploying to Kubernetes is a path riddled with stumbling blocks. Syn automates Kubernetes with fully controlled and secured configuration management for multiple tenants, enabling reproducibility of issues and increasing reliability and flexibility in multi-cloud deployments.
+- id: 14
+  authors: 
   - Simone Fardella
   title: "How Microservices helped modernize an IoT Platform"
-- authors: 
+  extended_abstract: paper_14.pdf
+  abstract: |
+    In order to demonstrate how microservices can help modernize a software offering, we will go through our Trueverit IoT platform roadmap, we will explain the insights behind the move towards microservices and finally we will show the advantages of such a move.
+    About 5 years ago, a project called Trueverit had been started up. Its purpose was enabling industrial customers to use, leverage and monetize data coming from their assets. Having this mission in mind an IoT tool was built. As time went by, and as Trueverit was used in production by customers, some issues arose: ease of development and maintenance, scalability, security and flexibility. In order to solve such problems, the company decided to dismantle the monolith and move to a microservices oriented architecture. Going through our roadmap, we will illustrate the evolution of a real IoT platform and how microservices have contributed to improve the product. 
+- id: 15
+  authors: 
   - Davide Berardi
   - Saverio Giallorenzo
   - Jacopo Mauro
   - Andrea Melis
   - Fabrizio Montesi
   title: "A Survey on Microservices Security: Preliminary Findings"
-- authors: 
+  extended_abstract: paper_15.pdf
+  abstract: |
+    Microservices have become the state-of-the-art architectural style for distributed systems, however we notice the lack of comprehensive guidelines on Microservices Security. Motivated by this observation, we started an ongoing work to categorise the literature on Microservices Security, with the intent to overview the current status of the field, to provide an initial guideline to researchers and practitioners, and to possibly identify uncovered areas and orient future research.
+    In our presentation at Microservices 2020, we propose to present the state of the art and discuss some of the most interesting insights we collected so far, such as: main security attacks occurred, the relation between software development and security, the main technologies involved, and the main application domains.
+- id: 16
+  authors: 
   - Tullio Vardanega
   - Riccardo Cardin
   title: "Microservices and curricular education"
-- authors: 
+  extended_abstract: paper_16.pdf
+  abstract: |
+    Frequently enough, one tends to think that his or her professional qualifications are solely the product of one’s own work experience, void of traceable relation to curricular education. While this stance may reflect some frustration with curriculum instructors and teaching program (as in “learning to read”), it is fundamentally flawed. Personal maturity, prerequisite of professionalism, rests on education and consolidates harmoniously with experience (as in “reading to learn”). Breakages may of course occur between curriculum design and professional competence, unfortunately. More frequently so where the knowledge domain evolves fast, faster than curriculum design may coalesce adaptively.
+    Where does the knowledge of microservices stand in the regard of the university-level curriculum of Computer Science? This short paper reflects on this question, drawing from the experience of instructors deeply immersed in the professional practice.
+- id: 17
+  authors: 
   - Alessandro Molari
   - Eugenio Cavina
   - Eugenio Pierfederici
   title: "Towards Microservices Security Control Layer"
-- authors: 
+  extended_abstract: paper_17.pdf
+  abstract: |
+    Adapting applications to a microservices approach brings a series of advantages along with new challenges in project, deployment, monitoring and governance. For this reason, it is important to decouple security aspects from the actual microservices logic, as they are orthogonal to the logical specifications of the microservices. This means that an independent security control layer allows to simplify control and governance over those aspects by defining rules, policies and controls in a logically centralized way, even if those rules are then physically applied in a distributed way. Our final objective is to provide an enterprise architectural approach to handle those security aspects as first-class citizens, thus oriented to a security-by-design methodology.
+- id: 19
+  authors: 
   - Sindre Grønstøl Haugeland
   - Phu H. Nguyen
   - Franck Chauvel
   - Hui Song
   title: "Migrating Monolithic Applications to Microservices-based Customizable Multi-tenant Applications"
-- authors: 
+  extended_abstract: paper_19.pdf
+  abstract: |
+    Software providers have a myriad of legacy monolithic single-tenant software running on client infrastructure. Migrating legacy software to a multi-tenant cloud solution requires a structured and planned approach, in a context with no defined best practices on how to achieve this. This paper suggests an approach for how software providers can migrate legacy software to the cloud, providing customers with a flexible customization possibility, while taking advantage of the economics of scale that the cloud and multi-tenancy provide.
+- id: 20
+  authors: 
   - Saverio Giallorenzo
   - Fabrizio Montesi
   - Marco Peressotti
   - Luisa Zeppelin
   title: "Programming Microservice Choreographies: a security use case"
-- authors: 
+  extended_abstract: paper_20.pdf
+  abstract: |
+    To be effective, microservices typically coordinate with one another by following choreographies, i.e., coordination plans based on message passing.
+    In this talk, we will present Choral, a new programming language for the safe programming of choreographies that can then be translated to correct implementations in Java. We will then illustrate how Choral can be applied to the programming of microservices, by discussing an implementation of a security protocol for distributed authentication.
+- id: 21
+  authors: 
   - Linda Brodo
   - Chiara Bodei
   - Roberto Bruni
   title: "A Language for Microservices Interactions"
-- authors: 
+  extended_abstract: paper_21.pdf
+  abstract: |
+    Microservices are independent, fine-grained, cohesive software components that communicate via message passing.
+    They have been particularly successful to refactor large service applications in order to improve their scalability.
+    Here we propose a process algebraic framework for formally reasoning on the composition of microservices.
+    In particular, given a microservice system, we can analyse its communication schema and synthesise the corresponding orchestrators.
+- id: 22
+  authors: 
   - Luca Acquaviva
   - Filippo Bosi
   title: "Practices and Patterns of migration from monoliths to microservices"
-- authors: 
+  extended_abstract: paper_22.pdf
+  abstract: |
+    The adoption of microservices architecture in developing business applications can bring advantages. They, however, come together with a set of challenges that have to be faced. This talk summarizes our good and bad experiences in bringing some large codebases, and all the related organizations to a more microservices-friendly approach.
+- id: 23
+  authors: 
   - Simon Schönwälder
   - Pascal Weisenburger
   - Guido Salvaneschi
   title: "Multitier languages for Microservice Architectures"
+  extended_abstract: paper_23.pdf
+  abstract: |
+    The Microservice Architecture pattern (MSA) has gained increasing popularity throughout the last decade. Microservices foster the design of maintainable and scalable applications by composing distributed systems of small services communicating via lightweight mechanisms, with a focus on independent development and deployment. Yet, this approach forces developers to deal with a number of low level programming details, such as communication protocols and data formats.
+    Multi-tier programming is a programming paradigm that allows developing the parts (tiers) of a distributed application in a single compilation unit, e.g., server and client, abstracting away the complexity associated with distribution (including remote communication, data conversion, callback-based flow, multiple technologies). The compiler splits the code into the corresponding tiers, adds necessary network communication, and generates the deployment units.
+    We propose to combine the advantages of both worlds.
+    Our approach provides language-level features to address modular design and development and compiles to microservices to retain the benefits of MSA in terms of scalability, fault tolerance and ease of deployment.
+- id: 18
+  authors: 
+  - Anjana Fernando
+  - Saverio Giallorenzo
+  - Claudio Guidi
+  - Sameera Jayasoma
+  - Balint Maschio
+  - Jacopo Mauro
+  - Fabrizio Montesi
+  - Marco Montesi
+  - Marco Peressotti
+  - Matthias Dieter Wallnöfer
+  - Lakmal Warusawithana
+  title: "The Frontier of Microservice Programming"
+  extended_abstract: paper_18.pdf
+  abstract: |
+    Over the years, the teams behind the programming languages Ballerina and Jolie have developed linguistic primitives to deal with several aspects of microservice programming. Interestingly, while the two languages have been developed independently, many of their features are strikingly similar. This realisation came out of a recent meeting between the two teams, which inspired the question of what a "microservice-oriented" language should be.
+    In this presentation, we will go over the common aspects of microservice programming that we have identified, discuss how these aspects are supported linguistically by Ballerina and Jolie, and engage with the audience to debate on our question.

@@ -5,6 +5,8 @@ layout: page
 # image_source: 
 ---
 
+{% comment %} [](https://bopl.cs.unibo.it/events) {% endcomment %}
+
 {% assign tentative = false %}
 {% assign ready = true %}
 
@@ -27,7 +29,7 @@ The finalised version will be published at the beginning of February.
 </style>
 {% for day in site.data.program %}
 
-<div style="margin-top:30px;background-color:{{ day.color }};border-radius: 5px 5px 0px 0px;padding-left: 5px;padding-bottom: 20px;padding-top: 1px;"><h1>{{ day.day }} (Theme: {{ day.theme }})</h1></div>
+<div style="margin-top:30px;background-color:{{ day.color }};border-radius: 5px 5px 0px 0px;padding-left: 5px;padding-bottom: 20px;padding-top: 1px;"><h1>{{ day.day }}</h1></div>
 <table class="col-xs-12">
   <tbody>
       {% for event in day.events %}
@@ -62,7 +64,7 @@ The finalised version will be published at the beginning of February.
           {% if event.papers.size > 0 %}
             {% for pid in event.papers %}
               {% assign id = pid | minus: 1 %}
-              {% assign paper = site.data.papers[id]%}
+              {% assign paper = site.data.papers[id] %}
               <div class="presentation">
               <strong>{{ paper.title }}</strong>
               <br>
@@ -78,13 +80,13 @@ The finalised version will be published at the beginning of February.
               </strong>
               {% unless tentative %}
               <br>
-              <a target="_blank" style="color:white" href="{{paper.link}}">
+              <a target="_blank" style="color:white" href="{{ "/papers/" | append: paper.extended_abstract | relative_url }}">
                 <label class="btn btn-xs btn-primary"><span class="glyphicon glyphicon-circle-arrow-down"></span> Paper
               </label></a>
               <label class="abstract_btn btn btn-xs btn-info">
                 Abstract</label>
               {% if paper.slides %}
-              <a target="_blank" style="color:white" href="/2019/slides/papers/{{paper.slides}}">
+              <a target="_blank" style="color:white" href="{{ "/slides/papers/" | append: paper.slides | relative_url }}">
                 <label class="btn btn-xs btn-success"> <span class="glyphicon glyphicon-circle-arrow-down"></span> Slides</label></a> 
               {% endif %}
               <div style="display:none;" class="abstract">
@@ -103,7 +105,9 @@ The finalised version will be published at the beginning of February.
             {% endif %}
           {% endif %}
           <br>
+          {%- if event.location -%}
           Location: <strong>{{event.location}}</strong>
+          {%- endif -%}
         </td>
       </tr>
       {% endfor %}

@@ -32,7 +32,6 @@ Like Microservices 2019, this edition will be co-located and intertwined with th
     </div>
   </div>
 {% endfor %}
-  <p> (More to be announced) </p>
 {% else %}
 TBA
 {% endif %}

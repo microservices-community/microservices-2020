@@ -1,0 +1,29 @@
+CALL FOR PARTICIPATION:  BOPL 2020
+==========================================================
+Bologna Federated Conference on Programming Languages
+September 7-10, 2020
+Online at https://bopl.cs.unibo.it
+Registration deadline: September 3, 2020
+Registration fee: 30 euros.
+
+
+
+The Bologna Federated Conference on Programming Languages 
+brings together four top level international conferences related to 
+programming languages and software architectures:
+
+28th International Workshop on Functional and Logic Programming
+30th International Symposium on Logic-Based Program Synthesis and Transformation
+3rd International Conference on Microservices 2020
+22nd International Symposium on Principles and Practice of Declarative Programming
+
+The program will include a plenary talk by Josè Meseguer and an industrial 
+session with talks by representatives of leading companies.
+The overall program is available at  https://bopl.cs.unibo.it/events.
+
+Due to the ongoing COVID-19 situation, BOPL 2020 will be held online. 
+Please, refer to the attending page https://bopl.cs.unibo.it/attending.html 
+for instructions concerning how to register and how to join the sessions of the conference.
+ 
+ For any specific request please use the contact form at 
+ https://bopl.cs.unibo.it/contact.

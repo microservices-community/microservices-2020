@@ -18,14 +18,14 @@ community_badge:
 navigation_header:
   Home:                /
   Attending:           /attending/
-# Keynotes:            /keynotes/
+  Keynotes:            /keynotes/
   Accepted abstracts:  /accepted/
-# Program:             /program/
+  Program:             /program/
 # Photos:              /photos/
 # Satellite Events:    /satellite/
 # Social Events:       /social_event/
   Committees:          /committees/
-  Sponsoring:          /sponsors/
+#  Sponsoring:          /sponsors/
   Contact:             /contact/  
 
 # Exclude from build -----------------------------------------------------------
