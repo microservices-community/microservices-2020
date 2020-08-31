@@ -1,6 +1,6 @@
 ## Submission
 
-{% assign status = 1 %}
+{% assign status = 2 %}
 
 A submission should describe a talk to be given at the conference in the form of extended abstracts with a maximum of **two pages**. 
 
