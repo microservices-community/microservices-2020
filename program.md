@@ -67,6 +67,7 @@ The finalised version will be published at the beginning of February.
               {% assign paper = site.data.papers[id] %}
               <div class="presentation">
               <strong>{{ paper.title }}</strong>
+              {% if paper.authors %}
               <br>
               <strong class="text-muted">
                 {% if paper.authors.size == 1 %}
@@ -78,13 +79,18 @@ The finalised version will be published at the beginning of February.
                   {{author}}{% if forloop.last == false %}; {% endif %}
                 {% endfor %}
               </strong>
+              {% endif %}
               {% unless tentative %}
               <br>
+              {% if paper.extended_abstract %}
               <a target="_blank" style="color:white" href="{{ "/papers/" | append: paper.extended_abstract | relative_url }}">
                 <label class="btn btn-xs btn-primary"><span class="glyphicon glyphicon-circle-arrow-down"></span> Paper
-              </label></a>
+              </label></a> 
+              {% endif %}
+              {% if paper.abstract %}
               <label class="abstract_btn btn btn-xs btn-info">
                 Abstract</label>
+              {% endif %}
               {% if paper.slides %}
               <a target="_blank" style="color:white" href="{{ "/slides/papers/" | append: paper.slides | relative_url }}">
                 <label class="btn btn-xs btn-success"> <span class="glyphicon glyphicon-circle-arrow-down"></span> Slides</label></a> 

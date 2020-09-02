@@ -87,7 +87,7 @@
       from: "15:00"
       to: "15:30"
       non-session: true
-    - title: Second Keynote (TBA)
+    - title: Towards language support for programming microservices
       from: "15:30"
       to: "16:30"
       authors:

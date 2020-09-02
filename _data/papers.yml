@@ -64,15 +64,8 @@
   abstract: |
     In this talk, we present a model-driven approach for the automatic migration to microservices. The approach is implemented by means of JetBrains MPS, a text-based metamodelling framework, and validated using a first migration example from a Java-based application to Jolie - a programming language for defining microservices.
 - id: 10
-  authors: 
-  - Quirino Zagarese
-  - Pedro Nuno Santos
-  - Vincenzo Candela
-  - Francesco Sorice
-  title: "Dockerunit: Multi-replica Ephemeral Deployments for Advanced Testing of Microservices"
-  extended_abstract: paper_10.pdf
-  abstract: |
-    We present Dockerunit: a Java framework that enables declarative tests specifications and manages the full test lifecycle for dozens of multi-replica Docker services, without relying on complex orchestration platforms like Kubernetes.
+  title: "TBA"
+  hide: true
 - id: 11
   authors: 
   - Faruk Pasic
