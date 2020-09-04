@@ -18,8 +18,7 @@ community_badge:
 navigation_header:
   Home:                /
   Attending:           /attending/
-  Keynotes:            /keynotes/
-  Accepted abstracts:  /accepted/
+# Keynotes:            /keynotes/
   Program:             /program/
 # Photos:              /photos/
 # Satellite Events:    /satellite/
@@ -27,6 +26,7 @@ navigation_header:
   Committees:          /committees/
 #  Sponsoring:          /sponsors/
   Contact:             /contact/  
+  CoC:                 "https://www.microservices.community/events/coc/"
 
 # Exclude from build -----------------------------------------------------------
 exclude:

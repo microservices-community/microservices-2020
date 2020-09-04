@@ -10,6 +10,7 @@ layout: page
 {% assign tentative = false %}
 {% assign ready = true %}
 
+
 {% if ready %}
 
 {% if tentative %}
@@ -128,7 +129,9 @@ The finalised version will be published at the beginning of February.
     });
   });
 </script>
+
+See the list of [invited keynotes](/keynotes/) and of [talks](/accepted/) contributed by the community.
+
 {% else %}
 TBD
 {% endif %}
-

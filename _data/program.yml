@@ -107,10 +107,6 @@
   theme: 
   color: "#aeffbf"
   events:
-    - title: Community Discussion
-      from: "10:30"
-      to: "11:00"
-#      description: |
     - title: Domain Experience, Testing, and Monitoring
       chairs:
       from: "11:00"
@@ -127,11 +123,15 @@
     - title: Microservice Operations
       chairs:
       from: "13:45"
-      to: "15:00"
+      to: "14:35"
       papers:
         - 6
-        - 8
         - 11
+    - title: Conference retrospective and community discussion
+      from: "14:35"
+      to: "15:00"
+      description: |
+        Let us know what you are taking away from the conference
     - title: Coffee Break
       from: "15:00"
       to: "15:30"
