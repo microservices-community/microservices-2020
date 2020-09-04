@@ -38,6 +38,13 @@
       zone:
         tzid: Etc/GMT-12
         label: AoE (UTC-12)
+- summary: Registration closes
+  id: registration_closes
+  entries: 
+    - date: 2020-09-06
+      zone:
+        tzid: Europe/Berlin
+        label: CEST (UTC+2)
 # - summary: Registration
 #   hide_from: ics
 #   id: registration
@@ -60,4 +67,4 @@
       to: 2020-09-10
       zone:
         tzid: Europe/Berlin
-        label: CET (UTC+1)
+        label: CEST (UTC+2)
