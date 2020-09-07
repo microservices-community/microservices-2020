@@ -10,7 +10,7 @@
         Opening speech to welcome all the attendees and
         introduce the organisation and the environment around the conference.
     - title: Modelling and Architecture
-      chairs:
+      chairs: Antonio Bucchiarone 
       from: "11:00"
       to: "12:40"
       papers:
@@ -23,7 +23,7 @@
       to: "13:45"
       non-session: true
     - title: Monolith to Microservices
-      chairs:
+      chairs: Saverio Giallorenzo
       from: "13:45"
       to: "15:00"
       papers:
@@ -35,6 +35,7 @@
       to: "15:30"
       non-session: true
     - title: Plenary BOPL talk
+      chairs: Maurizio Gabbrielli 
       from: "15:30"
       to: "16:30"
       authors:
@@ -45,6 +46,7 @@
       to: "17:00"
       non-session: true
     - title: Rethinking Legacy and Monolithic Systems
+      chairs: Olaf Zimmermann
       from: "17:00"
       to: "18:00"
       authors:
@@ -63,7 +65,7 @@
       description: |
         Introduction from the Microservices Community.
     - title: Security and Community Concerns
-      chairs:
+      chairs: Claudio Guidi
       from: "11:00"
       to: "12:40"
       papers:
@@ -76,7 +78,7 @@
       to: "13:45"
       non-session: true
     - title: Microservices Development
-      chairs:
+      chairs: Florian Rademacher
       from: "13:45"
       to: "15:00"
       papers:
@@ -88,6 +90,7 @@
       to: "15:30"
       non-session: true
     - title: Towards language support for programming microservices
+      chairs: Gianluigi Zavattaro
       from: "15:30"
       to: "16:30"
       authors:
@@ -108,7 +111,7 @@
   color: "#aeffbf"
   events:
     - title: Domain Experience, Testing, and Monitoring
-      chairs:
+      chairs: Ivan Lanese 
       from: "11:00"
       to: "12:40"
       papers:
@@ -121,7 +124,7 @@
       to: "13:45"
       non-session: true
     - title: Microservice Operations
-      chairs:
+      chairs: Marco Peressotti
       from: "13:45"
       to: "14:35"
       papers:
@@ -137,6 +140,7 @@
       to: "15:30"
       non-session: true
     - title: Microservices beyond COVID-19
+      chairs: Marco Prandini
       from: "15:30"
       to: "16:30"
       authors:
