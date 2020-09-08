@@ -19,6 +19,7 @@
   - Florian Rademacher
   title: "A Non-Intrusive Approach to Extend Microservice Modeling Languages with Architecture Pattern Support"
   extended_abstract: paper_3.pdf
+  slides: paper_3.pdf
   abstract: |
     The adoption of Microservice Architecture (MSA) is expected to increase software quality attributes like scalability, maintainability, and reliability. In particular, monolithic architectures are expected to benefit from a migration to MSA. However, it also introduces additional complexity in architecture design, implementation, and operation. To cope with this complexity, we investigate the application of Model-driven Engineering to MSA engineering. Therefore, we developed a set of textual modeling languages, that addresses the viewpoints and concerns of different stakeholder groups in MSA engineering, in recent works.
     By intent, our modeling languages only integrate concepts and keywords for basic building blocks of MSA. In particular, we do not provide built-in concepts for architecture patterns to increase languages' learnability and stability. Instead, we implemented an aspect mechanism to flexibly augment model elements with metadata.
@@ -37,6 +38,7 @@
   - Claudio Guidi
   title: "Towards autonomic microservices"
   extended_abstract: paper_5.pdf
+  slides: paper_5.pdf
   abstract: |
     Autonomic computing is a key challenge for system engineers. It promises to address issues related to system configuration and maintenance by leaving the responsibility of configuration and reparation to the components themselves.In this presentation, I propose a reference architecture for allowing microservices to interact with the execution environment in order to modify their own structure. A proof of concept example will be provided in Jolie: an auto-splitting monolith. It is an application that is deployed as a monolith and that asks to change its architecture at runtime into a microservice based one and viceversa. The main ambition of this work is to trigger a discussion for reasoning about a standard reference architecture for autonomic microservices.
 - id: 6
@@ -141,6 +143,7 @@
   - Hui Song
   title: "Migrating Monolithic Applications to Microservices-based Customizable Multi-tenant Applications"
   extended_abstract: paper_19.pdf
+  slides: paper_19.pdf
   abstract: |
     Software providers have a myriad of legacy monolithic single-tenant software running on client infrastructure. Migrating legacy software to a multi-tenant cloud solution requires a structured and planned approach, in a context with no defined best practices on how to achieve this. This paper suggests an approach for how software providers can migrate legacy software to the cloud, providing customers with a flexible customization possibility, while taking advantage of the economics of scale that the cloud and multi-tenancy provide.
 - id: 20
@@ -181,6 +184,7 @@
   - Guido Salvaneschi
   title: "Multitier languages for Microservice Architectures"
   extended_abstract: paper_23.pdf
+  slides: paper_23.pdf
   abstract: |
     The Microservice Architecture pattern (MSA) has gained increasing popularity throughout the last decade. Microservices foster the design of maintainable and scalable applications by composing distributed systems of small services communicating via lightweight mechanisms, with a focus on independent development and deployment. Yet, this approach forces developers to deal with a number of low level programming details, such as communication protocols and data formats.
     Multi-tier programming is a programming paradigm that allows developing the parts (tiers) of a distributed application in a single compilation unit, e.g., server and client, abstracting away the complexity associated with distribution (including remote communication, data conversion, callback-based flow, multiple technologies). The compiler splits the code into the corresponding tiers, adds necessary network communication, and generates the deployment units.
@@ -204,3 +208,26 @@
   abstract: |
     Over the years, the teams behind the programming languages Ballerina and Jolie have developed linguistic primitives to deal with several aspects of microservice programming. Interestingly, while the two languages have been developed independently, many of their features are strikingly similar. This realisation came out of a recent meeting between the two teams, which inspired the question of what a "microservice-oriented" language should be.
     In this presentation, we will go over the common aspects of microservice programming that we have identified, discuss how these aspects are supported linguistically by Ballerina and Jolie, and engage with the audience to debate on our question.
+- id: 30
+  hide: true
+  authors: 
+    - Corrado Iorizzo
+  title: "Edge Microservices and Industrial IOT for Digital Manufacturing"
+  abstract: |
+    Philip Morris International is scaling the integration of IIoT technologies in Factory Floor operation enabled by PMI Industrial Cloud which is a continuum of Edge and Cloud technologies merging IT/OT, underpinned by a combination of software stacks mainly open-source and open standards.
+
+    Several Use Cases have been already successfully implemented:
+    * HVAC energy optimization with Reinforcement Learning
+    * Autonomous Machine with Real-Time Quality Control
+    * Edge and Big-Data cross-functional Analytics
+
+    IndustrialCloud architecture is underpinned by digital best practices (DevOps, SRE, Microservices, Microfrontend, Kubernetes, and Service-Mesh) which are consistently applied to Manufacturing and OT enabling complex real-time data processing or advanced data analytics.
+
+    A critical success factor to successfully operate Industrial IOT real time application is the capability of distributing workload, including microservices, to edge technologies and devices.
+- id: 31
+  hide: true
+  authors: 
+    - Luca Paganelli
+  title: "The essence from cloud digital natives that effectively powers real Digital Transformation in the industry"
+  abstract: |
+    Digital Transformation has been definitely one of CIOs top priorities in the last years. Microservices have meanwhile become one of the primary companions and a must-to-have option to implement Digital Transformation programs. It’s time for a short, opinionated, retrospective on the Italian industrial landscape and an outlook on what cloud natives and their innovations can do to foster and power software lifecycle transformational programs to support valuable outcomes on the path to customer-centricity.

@@ -93,7 +93,7 @@ The finalised version will be published at the beginning of February.
                 Abstract</label>
               {% endif %}
               {% if paper.slides %}
-              <a target="_blank" style="color:white" href="{{ "/slides/papers/" | append: paper.slides | relative_url }}">
+              <a target="_blank" style="color:white" href="{{ "/slides/" | append: paper.slides | relative_url }}">
                 <label class="btn btn-xs btn-success"> <span class="glyphicon glyphicon-circle-arrow-down"></span> Slides</label></a> 
               {% endif %}
               <div style="display:none;" class="abstract">
@@ -130,7 +130,7 @@ The finalised version will be published at the beginning of February.
   });
 </script>
 
-See the list of [invited keynotes](/keynotes/) and of [talks](/accepted/) contributed by the community.
+See the list of [invited keynotes]({{ "/keynotes/" | relative_url }}) and of [talks]({{ "/accepted/" | relative_url }}) contributed by the community.
 
 {% else %}
 TBD

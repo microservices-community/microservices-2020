@@ -63,7 +63,11 @@
       from: "10:30"
       to: "11:00"
       description: |
-        Introduction from the Microservices Community.
+        Introduction from the Microservices Community.      
+      authors:
+        - name: Fabrizio Montesi
+          title: Speaker
+      chairs: Claudio Guidi
     - title: Security and Community Concerns
       chairs: Claudio Guidi
       from: "11:00"
@@ -103,9 +107,15 @@
       from: "16:30"
       to: "17:00"
       non-session: true
-    - title: Industrial Session (Panel)
+    - title: Plenary BOPL Industrial Session
       from: "17:00"
       to: "18:00"
+      papers:
+        - 22
+        - 23
+      description: |
+        <a href="https://bopl.cs.unibo.it/industrial-session.html">
+        Session program and abstracts</a>
 - day: September 10th
   theme: 
   color: "#aeffbf"
