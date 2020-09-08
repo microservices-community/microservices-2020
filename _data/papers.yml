@@ -199,7 +199,7 @@
   - Marco Peressotti
   - Matthias Dieter Wallnöfer
   - Lakmal Warusawithana
-  title: "The Frontier of Microservice Programming"
+  title: "Ballerina and Jolie: Connecting Two Frontiers of Microservice Programming"
   extended_abstract: paper_18.pdf
   abstract: |
     Over the years, the teams behind the programming languages Ballerina and Jolie have developed linguistic primitives to deal with several aspects of microservice programming. Interestingly, while the two languages have been developed independently, many of their features are strikingly similar. This realisation came out of a recent meeting between the two teams, which inspired the question of what a "microservice-oriented" language should be.
