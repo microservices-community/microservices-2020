@@ -45,6 +45,7 @@
   authors: 
     - Jonas Sorgalla
   title: "The Process of Microservice Development: Exploring the Unknown"
+  slides: paper_6.pdf
   extended_abstract: paper_6.pdf
   abstract: |
     The development process of Microservice Architectures is a place of many experience reports from companies like Netflix or Spotify. However, not every company is a major enterprise itself and the questions of how microservice development is implemented in smaller companies and how science could contribute remain open ones. Therefore, we conducted an explorative interview study with five smaller companies across six cases, which we analyzed using the Grounded Theory Method. Our results suggest that large-scale agile process models are highly customized by the enterprises and architectural modeling currently plays only a minor role due to perceived inefficiency. 
@@ -82,6 +83,7 @@
   - Saverio Giallorenzo
   - Jacopo Mauro
   title: "Allocation Priority Policies for Reliable Serverless Scheduling Performance"
+  slides: paper_12.pdf
   extended_abstract: paper_12.pdf
   abstract: |
     Serverless computing is a Cloud development paradigm where developers write and compose stateless functions, abstracting from their deployment and scaling. The paradigm has been recently associated to that of stateless Microservices architectures.
@@ -113,6 +115,7 @@
   - Andrea Melis
   - Fabrizio Montesi
   title: "A Survey on Microservices Security: Preliminary Findings"
+  slides: paper_15.pdf
   extended_abstract: paper_15.pdf
   abstract: |
     Microservices have become the state-of-the-art architectural style for distributed systems, however we notice the lack of comprehensive guidelines on Microservices Security. Motivated by this observation, we started an ongoing work to categorise the literature on Microservices Security, with the intent to overview the current status of the field, to provide an initial guideline to researchers and practitioners, and to possibly identify uncovered areas and orient future research.
@@ -122,6 +125,7 @@
   - Tullio Vardanega
   - Riccardo Cardin
   title: "Microservices and curricular education"
+  slides: paper_16.pdf
   extended_abstract: paper_16.pdf
   abstract: |
     Frequently enough, one tends to think that his or her professional qualifications are solely the product of one’s own work experience, void of traceable relation to curricular education. While this stance may reflect some frustration with curriculum instructors and teaching program (as in “learning to read”), it is fundamentally flawed. Personal maturity, prerequisite of professionalism, rests on education and consolidates harmoniously with experience (as in “reading to learn”). Breakages may of course occur between curriculum design and professional competence, unfortunately. More frequently so where the knowledge domain evolves fast, faster than curriculum design may coalesce adaptively.
@@ -132,6 +136,7 @@
   - Eugenio Cavina
   - Eugenio Pierfederici
   title: "Towards Microservices Security Control Layer"
+  slides: paper_17.pdf
   extended_abstract: paper_17.pdf
   abstract: |
     Adapting applications to a microservices approach brings a series of advantages along with new challenges in project, deployment, monitoring and governance. For this reason, it is important to decouple security aspects from the actual microservices logic, as they are orthogonal to the logical specifications of the microservices. This means that an independent security control layer allows to simplify control and governance over those aspects by defining rules, policies and controls in a logically centralized way, even if those rules are then physically applied in a distributed way. Our final objective is to provide an enterprise architectural approach to handle those security aspects as first-class citizens, thus oriented to a security-by-design methodology.
@@ -204,6 +209,7 @@
   - Matthias Dieter Wallnöfer
   - Lakmal Warusawithana
   title: "Ballerina and Jolie: Connecting Two Frontiers of Microservice Programming"
+  slides: paper_18.pdf
   extended_abstract: paper_18.pdf
   abstract: |
     Over the years, the teams behind the programming languages Ballerina and Jolie have developed linguistic primitives to deal with several aspects of microservice programming. Interestingly, while the two languages have been developed independently, many of their features are strikingly similar. This realisation came out of a recent meeting between the two teams, which inspired the question of what a "microservice-oriented" language should be.
