@@ -11,6 +11,7 @@
   - Philipp Heisig
   - Sabine Sachweh
   title: "Towards a Model-driven Testing Approach for Microservice Architectures in the Automotive Domain"
+  slides: paper_1.pdf
   extended_abstract: paper_1.pdf
   abstract: |
     The rapid growth and the tremendous number of connected vehicles on the road makes the connected vehicle domain a major element of the Internet of Things. However, vehicles operate in a safety-critical and time-sensitive environment with changing conditions. Mobility services running in the Cloud and serving multiple and a varying number of vehicles on demand must be tested with a broad range of connected vehicles including their interaction with the environment. The required massive amount of vehicle-specific data cannot be provided by occasionally applied approaches, e. g. real test drives. Thus, the authors propose a model-based testing methodologiy via simulators, that do not exhibit any real hardware components, but rather foster a virtual test environment that can be easily set up, replicated, and used for various connected vehicle scenarios.
@@ -54,6 +55,7 @@
   - Philip Wizenty
   - Florian Rademacher
   title: "Generation of Container-Based Deployment Units Using an Ecosystem of Microservice-Oriented Modeling Languages"
+  slides: paper_1.pdf
   extended_abstract: paper_7.pdf
   abstract: |
     The configuration of container-based deployments for Microservice Architecture is a complex and error-prone process. There are a variety of technologies that can be used for the deployment of the system. These not only have individual configuration options, but also differ in the configuration format. In addition, the configuration of the deployment is distributed to several different files. In our approach, we present a code generation pipeline for generating service specific deployment configurations including files for service composition and orchestration.
@@ -96,6 +98,7 @@
   - Simon Gerber
   - Adrian Kosmaczewski
   title: "Syn: GitOps on Stereoids with Kubernetes the Swiss Way"
+  slides: paper_13.pdf
   extended_abstract: paper_13.pdf
   abstract: |
     Kubernetes has become one of the leading platforms for deploying and operating microservice-based applications. With its native support for containers and cloud functions, it has strong service scheduling, scaling and isolation features. But deploying to Kubernetes is a path riddled with stumbling blocks. Syn automates Kubernetes with fully controlled and secured configuration management for multiple tenants, enabling reproducibility of issues and increasing reliability and flexibility in multi-cloud deployments.
@@ -103,6 +106,7 @@
   authors: 
   - Simone Fardella
   title: "How Microservices helped modernize an IoT Platform"
+  slides: paper_14.pdf
   extended_abstract: paper_14.pdf
   abstract: |
     In order to demonstrate how microservices can help modernize a software offering, we will go through our Trueverit IoT platform roadmap, we will explain the insights behind the move towards microservices and finally we will show the advantages of such a move.
@@ -158,6 +162,7 @@
   - Marco Peressotti
   - Luisa Zeppelin
   title: "Programming Microservice Choreographies: a security use case"
+  slides: paper_20.pdf
   extended_abstract: paper_20.pdf
   abstract: |
     To be effective, microservices typically coordinate with one another by following choreographies, i.e., coordination plans based on message passing.

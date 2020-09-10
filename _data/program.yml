@@ -10,7 +10,8 @@
         Opening speech to welcome all the attendees and
         introduce the organisation and the environment around the conference.
     - title: Modelling and Architecture
-      chairs: Antonio Bucchiarone 
+      chairs: 
+        - Antonio Bucchiarone 
       from: "11:00"
       to: "12:40"
       papers:
@@ -23,7 +24,8 @@
       to: "13:45"
       non-session: true
     - title: Monolith to Microservices
-      chairs: Saverio Giallorenzo
+      chairs: 
+        - Saverio Giallorenzo
       from: "13:45"
       to: "15:00"
       papers:
@@ -35,7 +37,8 @@
       to: "15:30"
       non-session: true
     - title: Plenary BOPL talk
-      chairs: Maurizio Gabbrielli 
+      chairs: 
+        - Maurizio Gabbrielli 
       from: "15:30"
       to: "16:30"
       authors:
@@ -46,7 +49,8 @@
       to: "17:00"
       non-session: true
     - title: Rethinking Legacy and Monolithic Systems
-      chairs: Olaf Zimmermann
+      chairs: 
+        - Olaf Zimmermann
       from: "17:00"
       to: "18:00"
       authors:
@@ -67,9 +71,11 @@
       authors:
         - name: Fabrizio Montesi
           title: Speaker
-      chairs: Claudio Guidi
+      chairs: 
+        - Claudio Guidi
     - title: Security and Community Concerns
-      chairs: Claudio Guidi
+      chairs: 
+        - Claudio Guidi
       from: "11:00"
       to: "12:40"
       papers:
@@ -82,7 +88,8 @@
       to: "13:45"
       non-session: true
     - title: Microservices Development
-      chairs: Florian Rademacher
+      chairs: 
+        - Florian Rademacher
       from: "13:45"
       to: "15:00"
       papers:
@@ -94,7 +101,8 @@
       to: "15:30"
       non-session: true
     - title: Towards language support for programming microservices
-      chairs: Gianluigi Zavattaro
+      chairs: 
+        - Gianluigi Zavattaro
       from: "15:30"
       to: "16:30"
       authors:
@@ -121,7 +129,8 @@
   color: "#aeffbf"
   events:
     - title: Domain Experience, Testing, and Monitoring
-      chairs: Ivan Lanese 
+      chairs: 
+        - Ivan Lanese 
       from: "11:00"
       to: "12:40"
       papers:
@@ -134,13 +143,18 @@
       to: "13:45"
       non-session: true
     - title: Microservice Operations
-      chairs: Marco Peressotti
+      chairs: 
+        - Marco Peressotti
       from: "13:45"
       to: "14:35"
       papers:
         - 6
         - 11
     - title: Conference retrospective and community discussion
+      chairs: 
+        - Marco Prandini 
+        - Gianluigi Zavattaro
+        - Olaf Zimmermann
       from: "14:35"
       to: "15:00"
       description: |
@@ -150,12 +164,14 @@
       to: "15:30"
       non-session: true
     - title: Microservices beyond COVID-19
-      chairs: Marco Prandini
+      chairs: 
+        - Marco Prandini
       from: "15:30"
       to: "16:30"
       authors:
         - name: Antonio Brogi
           title: Speaker
+      slides: keynote_3.pdf
       description: |
         <a href="https://conf-micro.services/2020/keynotes/#microservices-beyond-covid-19">
         Abstract of the keynote</a>

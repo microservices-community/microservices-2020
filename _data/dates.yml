@@ -62,7 +62,7 @@
     website: Conference
     calendar: Microservices 2020
   id: conference
-  expired: false
+  expired: true
   entries:
     - from: 2020-09-08
       to: 2020-09-10

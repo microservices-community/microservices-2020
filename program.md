@@ -53,7 +53,7 @@ The finalised version will be published at the beginning of February.
           {% endif %}
           {% if event.slides %}
             <br>
-            <a target="_blank" style="color:white" href="/2019/slides/{{event.slides}}"><label class="btn btn-xs btn-success">
+            <a target="_blank" style="color:white" href="{{ "/slides/" | append: event.slides | relative_url }}"><label class="btn btn-xs btn-success">
             <span class="glyphicon glyphicon-circle-arrow-down"></span> Slides</label></a> 
             <br>
           {% endif %}
@@ -69,17 +69,9 @@ The finalised version will be published at the beginning of February.
               <div class="presentation">
               <strong>{{ paper.title }}</strong>
               {% if paper.authors %}
-              <br>
-              <strong class="text-muted">
-                {% if paper.authors.size == 1 %}
-                Author:
-                {% else %}
-                Authors:
-                {% endif %}
-                {% for author in paper.authors %}
-                  {{author}}{% if forloop.last == false %}; {% endif %}
-                {% endfor %}
-              </strong>
+                <br>
+                Chair{%- if paper.authors.size >= 1 -%}s{%- endif -%}:
+                <strong class="text-muted">{{ paper.authors | array_to_sentence_string}}</strong>
               {% endif %}
               {% unless tentative %}
               <br>
@@ -105,11 +97,8 @@ The finalised version will be published at the beginning of February.
           {% endif %}
           {% if event.chairs %}
             <br>
-            {% if event.chairs.size == 1 %}
-                Chair: <strong>{{event.chairs[0]}}</strong>
-            {% else %}
-                Chairs: <strong>{{event.chairs | join: ", "}}</strong>
-            {% endif %}
+            Chair{%- if event.chairs.size >= 1 -%}s{%- endif -%}:
+            <strong>{{event.chairs | array_to_sentence_string}}</strong>            
           {% endif %}
           <br>
           {%- if event.location -%}
