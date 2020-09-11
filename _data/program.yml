@@ -108,6 +108,7 @@
       authors:
         - name: Sanjiva Weerawarana
           title: Speaker
+      slides: keynote_2.pptx
       description: |
         <a href="https://conf-micro.services/2020/keynotes/#towards-language-support-for-programming-microservices">
         Abstract of the keynote</a>
