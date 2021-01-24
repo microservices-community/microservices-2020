@@ -70,7 +70,7 @@ The finalised version will be published at the beginning of February.
               <strong>{{ paper.title }}</strong>
               {% if paper.authors %}
                 <br>
-                Chair{%- if paper.authors.size >= 1 -%}s{%- endif -%}:
+                Author{%- if paper.authors.size > 1 -%}s{%- endif -%}:
                 <strong class="text-muted">{{ paper.authors | array_to_sentence_string}}</strong>
               {% endif %}
               {% unless tentative %}
@@ -97,7 +97,7 @@ The finalised version will be published at the beginning of February.
           {% endif %}
           {% if event.chairs %}
             <br>
-            Chair{%- if event.chairs.size >= 1 -%}s{%- endif -%}:
+            Chair{%- if event.chairs.size > 1 -%}s{%- endif -%}:
             <strong>{{event.chairs | array_to_sentence_string}}</strong>            
           {% endif %}
           <br>
